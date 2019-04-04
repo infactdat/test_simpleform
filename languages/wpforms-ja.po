@@ -1,0 +1,4229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms 1.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpforms\n"
+"POT-Creation-Date: 2019-01-02 07:16+0000\n"
+"PO-Revision-Date: 2019-01-31 08:10+0000\n"
+"Last-Translator: admin <tuandn.developer@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: advance/advance-functions.php:239
+msgid "管理者宛メール設定"
+msgstr ""
+
+#: advance/advance-functions.php:241
+msgid "フォームよりお問合せがありました"
+msgstr ""
+
+#: advance/advance-functions.php:247
+msgid "自動返信メール設定"
+msgstr ""
+
+#: advance/advance-functions.php:381
+msgid "CC"
+msgstr ""
+
+#: advance/advance-functions.php:396
+msgid "BCC"
+msgstr ""
+
+#: advance/advance-functions.php:410
+#, php-format
+msgctxt "Form name"
+msgid "New Entry: %s"
+msgstr ""
+
+#: advance/advance-functions.php:481
+msgid "this notification if"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:160
+msgid "this field if"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:167
+msgid "Show"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:168
+msgid "Hide"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:283
+#: includes/admin/builder/class-builder.php:359
+msgid "-- Select Field --"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:324
+#: includes/admin/builder/class-builder.php:343
+msgid "is"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:325
+#: includes/admin/builder/class-builder.php:344
+msgid "is not"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:326
+#: includes/admin/builder/class-builder.php:345
+msgid "empty"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:327
+#: includes/admin/builder/class-builder.php:346
+msgid "not empty"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:332
+#: includes/admin/builder/class-builder.php:347
+msgid "contains"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:333
+#: includes/admin/builder/class-builder.php:348
+msgid "does not contain"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:334
+#: includes/admin/builder/class-builder.php:349
+msgid "starts with"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:335
+#: includes/admin/builder/class-builder.php:350
+msgid "ends with"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:378
+#: includes/admin/builder/class-builder.php:360
+msgid "-- Select Choice --"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:398
+#: includes/admin/builder/class-builder.php:353
+msgid "Create new rule"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:398
+#: includes/admin/builder/class-builder.php:280
+msgid "AND"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:399
+#: includes/admin/builder/class-builder.php:355
+msgid "Delete rule"
+msgstr ""
+
+#: includes/class-conditional-logic-core.php:414
+msgid "Add rule group"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: includes/class-form.php:70 includes/integrations.php:43
+#: includes/admin/class-menu.php:101
+msgid "WPForms"
+msgstr ""
+
+#: includes/class-frontend.php:1248
+msgid "Please enter time in 12-hour AM/PM format (eg 8:45 AM)."
+msgstr ""
+
+#: includes/class-frontend.php:1249
+msgid "Please enter time in 24-hour format (eg 22:45)."
+msgstr ""
+
+#: includes/class-frontend.php:1250
+msgid "Payment is required."
+msgstr ""
+
+#: includes/class-frontend.php:1251
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: includes/class-frontend.php:1317
+#, php-format
+msgid "<a href=\"%s\">Go to the full page</a> to view and submit the form."
+msgstr ""
+
+#: includes/class-logging.php:36
+msgid "WPForms Logs"
+msgstr ""
+
+#: includes/class-logging.php:36
+msgid "Logs"
+msgstr ""
+
+#: includes/class-preview.php:121
+msgid "Hide empty fields"
+msgstr ""
+
+#: includes/class-preview.php:123 includes/class-preview.php:163
+msgid "Show empty fields"
+msgstr ""
+
+#: includes/class-preview.php:132
+msgid "Hide notes"
+msgstr ""
+
+#: includes/class-preview.php:134 includes/class-preview.php:164
+msgid "Show notes"
+msgstr ""
+
+#: includes/class-preview.php:143
+msgid "Normal view"
+msgstr ""
+
+#: includes/class-preview.php:145 includes/class-preview.php:165
+msgid "Compact view"
+msgstr ""
+
+#: includes/class-preview.php:156
+#, php-format
+msgid "Entry #%d"
+msgstr ""
+
+#: includes/class-preview.php:159
+msgid "Print"
+msgstr ""
+
+#: includes/class-preview.php:173
+#: advance/includes/admin/entries/class-entries-single.php:498
+msgid "This entry does not have any fields"
+msgstr ""
+
+#. translators: %d - field ID
+#: includes/class-preview.php:190
+#: advance/includes/admin/entries/class-entries-single.php:514
+#, php-format
+msgid "Field ID #%d"
+msgstr ""
+
+#: includes/class-preview.php:205
+#: advance/includes/admin/entries/class-entries-single.php:556
+msgid "Notes"
+msgstr ""
+
+#. translators: %1$s - user name; %2$s - date
+#: includes/class-preview.php:219
+#, php-format
+msgid "Added by %1$s on %2$s"
+msgstr ""
+
+#: includes/class-preview.php:264
+msgid ""
+"This is the WPForms preview page. All your form previews will be handled on "
+"this page."
+msgstr ""
+
+#: includes/class-preview.php:265
+msgid ""
+"The page is set to private, so it is not publicly accessible. Please do not "
+"delete this page :) ."
+msgstr ""
+
+#: includes/class-preview.php:270
+msgid "WPForms Preview"
+msgstr ""
+
+#: includes/class-preview.php:373
+msgid "This is a preview of your form. This page is not publicly accessible."
+msgstr ""
+
+#: includes/class-preview.php:375
+msgid "Close this window"
+msgstr ""
+
+#: includes/class-preview.php:377
+#, php-format
+msgctxt "Form name"
+msgid "%s Preview"
+msgstr ""
+
+#: includes/class-process.php:86
+msgid "Invalid form."
+msgstr ""
+
+#: includes/class-process.php:153
+msgid "WPForms honeypot field triggered."
+msgstr ""
+
+#: includes/class-smart-tags.php:33
+msgid "Site Administrator Email"
+msgstr ""
+
+#: includes/class-smart-tags.php:37
+msgid "Embedded Post/Page Title"
+msgstr ""
+
+#: includes/class-smart-tags.php:38
+msgid "Embedded Post Page URL"
+msgstr ""
+
+#: includes/class-smart-tags.php:39
+msgid "Embedded Post/Page ID"
+msgstr ""
+
+#: includes/class-smart-tags.php:41
+msgid "Query String Variable"
+msgstr ""
+
+#: includes/class-smart-tags.php:42
+msgid "User IP Address"
+msgstr ""
+
+#: includes/class-smart-tags.php:43
+msgid "User ID"
+msgstr ""
+
+#: includes/class-smart-tags.php:44
+msgid "User Name"
+msgstr ""
+
+#: includes/class-smart-tags.php:45
+msgid "User Email"
+msgstr ""
+
+#: includes/class-smart-tags.php:46
+msgid "Author ID"
+msgstr ""
+
+#: includes/class-smart-tags.php:47
+msgid "Author Name"
+msgstr ""
+
+#: includes/class-smart-tags.php:48
+msgid "Author Email"
+msgstr ""
+
+#: includes/class-smart-tags.php:49
+msgid "Referrer URL"
+msgstr ""
+
+#: includes/class-smart-tags.php:50
+msgid "Login URL"
+msgstr ""
+
+#: includes/class-smart-tags.php:51
+msgid "Logout URL"
+msgstr ""
+
+#: includes/class-smart-tags.php:52
+msgid "Register URL"
+msgstr ""
+
+#: includes/class-smart-tags.php:53
+msgid "Lost Password URL"
+msgstr ""
+
+#: includes/functions.php:635
+msgid "Alabama"
+msgstr ""
+
+#: includes/functions.php:636
+msgid "Alaska"
+msgstr ""
+
+#: includes/functions.php:637
+msgid "Arizona"
+msgstr ""
+
+#: includes/functions.php:638
+msgid "Arkansas"
+msgstr ""
+
+#: includes/functions.php:639
+msgid "California"
+msgstr ""
+
+#: includes/functions.php:640
+msgid "Colorado"
+msgstr ""
+
+#: includes/functions.php:641
+msgid "Connecticut"
+msgstr ""
+
+#: includes/functions.php:642
+msgid "Delaware"
+msgstr ""
+
+#: includes/functions.php:643
+msgid "District of Columbia"
+msgstr ""
+
+#: includes/functions.php:644
+msgid "Florida"
+msgstr ""
+
+#: includes/functions.php:645 includes/functions.php:787
+msgid "Georgia"
+msgstr ""
+
+#: includes/functions.php:646
+msgid "Hawaii"
+msgstr ""
+
+#: includes/functions.php:647
+msgid "Idaho"
+msgstr ""
+
+#: includes/functions.php:648
+msgid "Illinois"
+msgstr ""
+
+#: includes/functions.php:649
+msgid "Indiana"
+msgstr ""
+
+#: includes/functions.php:650
+msgid "Iowa"
+msgstr ""
+
+#: includes/functions.php:651
+msgid "Kansas"
+msgstr ""
+
+#: includes/functions.php:652
+msgid "Kentucky"
+msgstr ""
+
+#: includes/functions.php:653
+msgid "Louisiana"
+msgstr ""
+
+#: includes/functions.php:654
+msgid "Maine"
+msgstr ""
+
+#: includes/functions.php:655
+msgid "Maryland"
+msgstr ""
+
+#: includes/functions.php:656
+msgid "Massachusetts"
+msgstr ""
+
+#: includes/functions.php:657
+msgid "Michigan"
+msgstr ""
+
+#: includes/functions.php:658
+msgid "Minnesota"
+msgstr ""
+
+#: includes/functions.php:659
+msgid "Mississippi"
+msgstr ""
+
+#: includes/functions.php:660
+msgid "Missouri"
+msgstr ""
+
+#: includes/functions.php:661
+msgid "Montana"
+msgstr ""
+
+#: includes/functions.php:662
+msgid "Nebraska"
+msgstr ""
+
+#: includes/functions.php:663
+msgid "Nevada"
+msgstr ""
+
+#: includes/functions.php:664
+msgid "New Hampshire"
+msgstr ""
+
+#: includes/functions.php:665
+msgid "New Jersey"
+msgstr ""
+
+#: includes/functions.php:666
+msgid "New Mexico"
+msgstr ""
+
+#: includes/functions.php:667
+msgid "New York"
+msgstr ""
+
+#: includes/functions.php:668
+msgid "North Carolina"
+msgstr ""
+
+#: includes/functions.php:669
+msgid "North Dakota"
+msgstr ""
+
+#: includes/functions.php:670
+msgid "Ohio"
+msgstr ""
+
+#: includes/functions.php:671
+msgid "Oklahoma"
+msgstr ""
+
+#: includes/functions.php:672
+msgid "Oregon"
+msgstr ""
+
+#: includes/functions.php:673
+msgid "Pennsylvania"
+msgstr ""
+
+#: includes/functions.php:674
+msgid "Rhode Island"
+msgstr ""
+
+#: includes/functions.php:675
+msgid "South Carolina"
+msgstr ""
+
+#: includes/functions.php:676
+msgid "South Dakota"
+msgstr ""
+
+#: includes/functions.php:677
+msgid "Tennessee"
+msgstr ""
+
+#: includes/functions.php:678
+msgid "Texas"
+msgstr ""
+
+#: includes/functions.php:679
+msgid "Utah"
+msgstr ""
+
+#: includes/functions.php:680
+msgid "Vermont"
+msgstr ""
+
+#: includes/functions.php:681
+msgid "Virginia"
+msgstr ""
+
+#: includes/functions.php:682
+msgid "Washington"
+msgstr ""
+
+#: includes/functions.php:683
+msgid "West Virginia"
+msgstr ""
+
+#: includes/functions.php:684
+msgid "Wisconsin"
+msgstr ""
+
+#: includes/functions.php:685
+msgid "Wyoming"
+msgstr ""
+
+#: includes/functions.php:700
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/functions.php:701
+msgid "Aland Islands"
+msgstr ""
+
+#: includes/functions.php:702
+msgid "Albania"
+msgstr ""
+
+#: includes/functions.php:703
+msgid "Algeria"
+msgstr ""
+
+#: includes/functions.php:704
+msgid "American Samoa"
+msgstr ""
+
+#: includes/functions.php:705
+msgid "Andorra"
+msgstr ""
+
+#: includes/functions.php:706
+msgid "Angola"
+msgstr ""
+
+#: includes/functions.php:707
+msgid "Anguilla"
+msgstr ""
+
+#: includes/functions.php:708
+msgid "Antarctica"
+msgstr ""
+
+#: includes/functions.php:709
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/functions.php:710
+msgid "Argentina"
+msgstr ""
+
+#: includes/functions.php:711
+msgid "Armenia"
+msgstr ""
+
+#: includes/functions.php:712
+msgid "Aruba"
+msgstr ""
+
+#: includes/functions.php:713
+msgid "Ascension Island"
+msgstr ""
+
+#: includes/functions.php:714
+msgid "Australia"
+msgstr ""
+
+#: includes/functions.php:715
+msgid "Austria"
+msgstr ""
+
+#: includes/functions.php:716
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/functions.php:717
+msgid "Bahamas"
+msgstr ""
+
+#: includes/functions.php:718
+msgid "Bahrain"
+msgstr ""
+
+#: includes/functions.php:719
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/functions.php:720
+msgid "Barbados"
+msgstr ""
+
+#: includes/functions.php:721
+msgid "Belarus"
+msgstr ""
+
+#: includes/functions.php:722
+msgid "Belgium"
+msgstr ""
+
+#: includes/functions.php:723
+msgid "Belize"
+msgstr ""
+
+#: includes/functions.php:724
+msgid "Benin"
+msgstr ""
+
+#: includes/functions.php:725
+msgid "Bermuda"
+msgstr ""
+
+#: includes/functions.php:726
+msgid "Bhutan"
+msgstr ""
+
+#: includes/functions.php:727
+msgid "Bolivia"
+msgstr ""
+
+#: includes/functions.php:728
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/functions.php:729
+msgid "Botswana"
+msgstr ""
+
+#: includes/functions.php:730
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/functions.php:731
+msgid "Brazil"
+msgstr ""
+
+#: includes/functions.php:732
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/functions.php:733
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/functions.php:734
+msgid "Brunei"
+msgstr ""
+
+#: includes/functions.php:735
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/functions.php:736
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/functions.php:737
+msgid "Burundi"
+msgstr ""
+
+#: includes/functions.php:738
+msgid "Cambodia"
+msgstr ""
+
+#: includes/functions.php:739
+msgid "Cameroon"
+msgstr ""
+
+#: includes/functions.php:740
+msgid "Canada"
+msgstr ""
+
+#: includes/functions.php:741
+msgid "Canary Islands"
+msgstr ""
+
+#: includes/functions.php:742
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/functions.php:743
+msgid "Caribbean Netherlands"
+msgstr ""
+
+#: includes/functions.php:744
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/functions.php:745
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/functions.php:746
+msgid "Ceuta and Melilla"
+msgstr ""
+
+#: includes/functions.php:747
+msgid "Chad"
+msgstr ""
+
+#: includes/functions.php:748
+msgid "Chile"
+msgstr ""
+
+#: includes/functions.php:749
+msgid "China"
+msgstr ""
+
+#: includes/functions.php:750
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/functions.php:751
+msgid "Clipperton Island"
+msgstr ""
+
+#: includes/functions.php:752
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/functions.php:753
+msgid "Colombia"
+msgstr ""
+
+#: includes/functions.php:754
+msgid "Comoros"
+msgstr ""
+
+#: includes/functions.php:755
+msgid "Congo (DRC)"
+msgstr ""
+
+#: includes/functions.php:756
+msgid "Congo (Republic)"
+msgstr ""
+
+#: includes/functions.php:757
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/functions.php:758
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/functions.php:759
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: includes/functions.php:760
+msgid "Croatia"
+msgstr ""
+
+#: includes/functions.php:761
+msgid "Cuba"
+msgstr ""
+
+#: includes/functions.php:762
+msgid "Curaçao"
+msgstr ""
+
+#: includes/functions.php:763
+msgid "Cyprus"
+msgstr ""
+
+#: includes/functions.php:764
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/functions.php:765
+msgid "Denmark (Danmark)"
+msgstr ""
+
+#: includes/functions.php:766
+msgid "Diego Garcia"
+msgstr ""
+
+#: includes/functions.php:767
+msgid "Djibouti"
+msgstr ""
+
+#: includes/functions.php:768
+msgid "Dominica"
+msgstr ""
+
+#: includes/functions.php:769
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/functions.php:770
+msgid "Ecuador"
+msgstr ""
+
+#: includes/functions.php:771
+msgid "Egypt"
+msgstr ""
+
+#: includes/functions.php:772
+msgid "El Salvador"
+msgstr ""
+
+#: includes/functions.php:773
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/functions.php:774
+msgid "Eritrea"
+msgstr ""
+
+#: includes/functions.php:775
+msgid "Estonia"
+msgstr ""
+
+#: includes/functions.php:776
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/functions.php:777
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/functions.php:778
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/functions.php:779
+msgid "Fiji"
+msgstr ""
+
+#: includes/functions.php:780
+msgid "Finland"
+msgstr ""
+
+#: includes/functions.php:781
+msgid "France"
+msgstr ""
+
+#: includes/functions.php:782
+msgid "French Guiana"
+msgstr ""
+
+#: includes/functions.php:783
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/functions.php:784
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/functions.php:785
+msgid "Gabon"
+msgstr ""
+
+#: includes/functions.php:786
+msgid "Gambia"
+msgstr ""
+
+#: includes/functions.php:788
+msgid "Germany"
+msgstr ""
+
+#: includes/functions.php:789
+msgid "Ghana"
+msgstr ""
+
+#: includes/functions.php:790
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/functions.php:791
+msgid "Greece"
+msgstr ""
+
+#: includes/functions.php:792
+msgid "Greenland"
+msgstr ""
+
+#: includes/functions.php:793
+msgid "Grenada"
+msgstr ""
+
+#: includes/functions.php:794
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/functions.php:795
+msgid "Guam"
+msgstr ""
+
+#: includes/functions.php:796
+msgid "Guatemala"
+msgstr ""
+
+#: includes/functions.php:797
+msgid "Guernsey"
+msgstr ""
+
+#: includes/functions.php:798
+msgid "Guinea"
+msgstr ""
+
+#: includes/functions.php:799
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/functions.php:800
+msgid "Guyana"
+msgstr ""
+
+#: includes/functions.php:801
+msgid "Haiti"
+msgstr ""
+
+#: includes/functions.php:802
+msgid "Heard & McDonald Islands"
+msgstr ""
+
+#: includes/functions.php:803
+msgid "Honduras"
+msgstr ""
+
+#: includes/functions.php:804
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/functions.php:805
+msgid "Hungary"
+msgstr ""
+
+#: includes/functions.php:806
+msgid "Iceland"
+msgstr ""
+
+#: includes/functions.php:807
+msgid "India"
+msgstr ""
+
+#: includes/functions.php:808
+msgid "Indonesia"
+msgstr ""
+
+#: includes/functions.php:809
+msgid "Iran"
+msgstr ""
+
+#: includes/functions.php:810
+msgid "Iraq"
+msgstr ""
+
+#: includes/functions.php:811
+msgid "Ireland"
+msgstr ""
+
+#: includes/functions.php:812
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/functions.php:813
+msgid "Israel"
+msgstr ""
+
+#: includes/functions.php:814
+msgid "Italy"
+msgstr ""
+
+#: includes/functions.php:815
+msgid "Jamaica"
+msgstr ""
+
+#: includes/functions.php:816
+msgid "Japan"
+msgstr ""
+
+#: includes/functions.php:817
+msgid "Jersey"
+msgstr ""
+
+#: includes/functions.php:818
+msgid "Jordan"
+msgstr ""
+
+#: includes/functions.php:819
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/functions.php:820
+msgid "Kenya"
+msgstr ""
+
+#: includes/functions.php:821
+msgid "Kiribati"
+msgstr ""
+
+#: includes/functions.php:822
+msgid "Kosovo"
+msgstr ""
+
+#: includes/functions.php:823
+msgid "Kuwait"
+msgstr ""
+
+#: includes/functions.php:824
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/functions.php:825
+msgid "Laos"
+msgstr ""
+
+#: includes/functions.php:826
+msgid "Latvia"
+msgstr ""
+
+#: includes/functions.php:827
+msgid "Lebanon"
+msgstr ""
+
+#: includes/functions.php:828
+msgid "Lesotho"
+msgstr ""
+
+#: includes/functions.php:829
+msgid "Liberia"
+msgstr ""
+
+#: includes/functions.php:830
+msgid "Libya"
+msgstr ""
+
+#: includes/functions.php:831
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/functions.php:832
+msgid "Lithuania"
+msgstr ""
+
+#: includes/functions.php:833
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/functions.php:834
+msgid "Macau"
+msgstr ""
+
+#: includes/functions.php:835
+msgid "Macedonia (FYROM)"
+msgstr ""
+
+#: includes/functions.php:836
+msgid "Madagascar"
+msgstr ""
+
+#: includes/functions.php:837
+msgid "Malawi"
+msgstr ""
+
+#: includes/functions.php:838
+msgid "Malaysia"
+msgstr ""
+
+#: includes/functions.php:839
+msgid "Maldives"
+msgstr ""
+
+#: includes/functions.php:840
+msgid "Mali"
+msgstr ""
+
+#: includes/functions.php:841
+msgid "Malta"
+msgstr ""
+
+#: includes/functions.php:842
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/functions.php:843
+msgid "Martinique"
+msgstr ""
+
+#: includes/functions.php:844
+msgid "Mauritania"
+msgstr ""
+
+#: includes/functions.php:845
+msgid "Mauritius"
+msgstr ""
+
+#: includes/functions.php:846
+msgid "Mayotte"
+msgstr ""
+
+#: includes/functions.php:847
+msgid "Mexico"
+msgstr ""
+
+#: includes/functions.php:848
+msgid "Micronesia"
+msgstr ""
+
+#: includes/functions.php:849
+msgid "Moldova"
+msgstr ""
+
+#: includes/functions.php:850
+msgid "Monaco"
+msgstr ""
+
+#: includes/functions.php:851
+msgid "Mongolia"
+msgstr ""
+
+#: includes/functions.php:852
+msgid "Montenegro"
+msgstr ""
+
+#: includes/functions.php:853
+msgid "Montserrat"
+msgstr ""
+
+#: includes/functions.php:854
+msgid "Morocco"
+msgstr ""
+
+#: includes/functions.php:855
+msgid "Mozambique"
+msgstr ""
+
+#: includes/functions.php:856
+msgid "Myanmar"
+msgstr ""
+
+#: includes/functions.php:857
+msgid "Namibia"
+msgstr ""
+
+#: includes/functions.php:858
+msgid "Nauru"
+msgstr ""
+
+#: includes/functions.php:859
+msgid "Nepal"
+msgstr ""
+
+#: includes/functions.php:860
+msgid "Netherlands"
+msgstr ""
+
+#: includes/functions.php:861
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/functions.php:862
+msgid "New Zealand"
+msgstr ""
+
+#: includes/functions.php:863
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/functions.php:864
+msgid "Niger"
+msgstr ""
+
+#: includes/functions.php:865
+msgid "Nigeria"
+msgstr ""
+
+#: includes/functions.php:866
+msgid "Niue"
+msgstr ""
+
+#: includes/functions.php:867
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/functions.php:868
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/functions.php:869
+msgid "North Korea"
+msgstr ""
+
+#: includes/functions.php:870
+msgid "Norway"
+msgstr ""
+
+#: includes/functions.php:871
+msgid "Oman"
+msgstr ""
+
+#: includes/functions.php:872
+msgid "Pakistan"
+msgstr ""
+
+#: includes/functions.php:873
+msgid "Palau"
+msgstr ""
+
+#: includes/functions.php:874
+msgid "Palestine"
+msgstr ""
+
+#: includes/functions.php:875
+msgid "Panama"
+msgstr ""
+
+#: includes/functions.php:876
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/functions.php:877
+msgid "Paraguay"
+msgstr ""
+
+#: includes/functions.php:878
+msgid "Peru"
+msgstr ""
+
+#: includes/functions.php:879
+msgid "Philippines"
+msgstr ""
+
+#: includes/functions.php:880
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: includes/functions.php:881
+msgid "Poland"
+msgstr ""
+
+#: includes/functions.php:882
+msgid "Portugal"
+msgstr ""
+
+#: includes/functions.php:883
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/functions.php:884
+msgid "Qatar"
+msgstr ""
+
+#: includes/functions.php:885
+msgid "Réunion"
+msgstr ""
+
+#: includes/functions.php:886
+msgid "Romania"
+msgstr ""
+
+#: includes/functions.php:887
+msgid "Russia"
+msgstr ""
+
+#: includes/functions.php:888
+msgid "Rwanda"
+msgstr ""
+
+#: includes/functions.php:889
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: includes/functions.php:890
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/functions.php:891
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/functions.php:892
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/functions.php:893
+msgid "Saint Martin"
+msgstr ""
+
+#: includes/functions.php:894
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/functions.php:895
+msgid "Samoa"
+msgstr ""
+
+#: includes/functions.php:896
+msgid "San Marino"
+msgstr ""
+
+#: includes/functions.php:897
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#: includes/functions.php:898
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/functions.php:899
+msgid "Senegal"
+msgstr ""
+
+#: includes/functions.php:900
+msgid "Serbia"
+msgstr ""
+
+#: includes/functions.php:901
+msgid "Seychelles"
+msgstr ""
+
+#: includes/functions.php:902
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/functions.php:903
+msgid "Singapore"
+msgstr ""
+
+#: includes/functions.php:904
+msgid "Sint Maarten"
+msgstr ""
+
+#: includes/functions.php:905
+msgid "Slovakia"
+msgstr ""
+
+#: includes/functions.php:906
+msgid "Slovenia"
+msgstr ""
+
+#: includes/functions.php:907
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/functions.php:908
+msgid "Somalia"
+msgstr ""
+
+#: includes/functions.php:909
+msgid "South Africa"
+msgstr ""
+
+#: includes/functions.php:910
+msgid "South Georgia & South Sandwich Islands"
+msgstr ""
+
+#: includes/functions.php:911
+msgid "South Korea"
+msgstr ""
+
+#: includes/functions.php:912
+msgid "South Sudan"
+msgstr ""
+
+#: includes/functions.php:913
+msgid "Spain"
+msgstr ""
+
+#: includes/functions.php:914
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/functions.php:915
+msgid "St. Vincent & Grenadines"
+msgstr ""
+
+#: includes/functions.php:916
+msgid "Sudan"
+msgstr ""
+
+#: includes/functions.php:917
+msgid "Suriname"
+msgstr ""
+
+#: includes/functions.php:918
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/functions.php:919
+msgid "Swaziland"
+msgstr ""
+
+#: includes/functions.php:920
+msgid "Sweden"
+msgstr ""
+
+#: includes/functions.php:921
+msgid "Switzerland"
+msgstr ""
+
+#: includes/functions.php:922
+msgid "Syria"
+msgstr ""
+
+#: includes/functions.php:923
+msgid "Taiwan"
+msgstr ""
+
+#: includes/functions.php:924
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/functions.php:925
+msgid "Tanzania"
+msgstr ""
+
+#: includes/functions.php:926
+msgid "Thailand"
+msgstr ""
+
+#: includes/functions.php:927
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/functions.php:928
+msgid "Togo"
+msgstr ""
+
+#: includes/functions.php:929
+msgid "Tokelau"
+msgstr ""
+
+#: includes/functions.php:930
+msgid "Tonga"
+msgstr ""
+
+#: includes/functions.php:931
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/functions.php:932
+msgid "Tristan da Cunha"
+msgstr ""
+
+#: includes/functions.php:933
+msgid "Tunisia"
+msgstr ""
+
+#: includes/functions.php:934
+msgid "Turkey"
+msgstr ""
+
+#: includes/functions.php:935
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/functions.php:936
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/functions.php:937
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/functions.php:938
+msgid "U.S. Outlying Islands"
+msgstr ""
+
+#: includes/functions.php:939
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: includes/functions.php:940
+msgid "Uganda"
+msgstr ""
+
+#: includes/functions.php:941
+msgid "Ukraine"
+msgstr ""
+
+#: includes/functions.php:942
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/functions.php:943
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/functions.php:944
+msgid "United States"
+msgstr ""
+
+#: includes/functions.php:945
+msgid "Uruguay"
+msgstr ""
+
+#: includes/functions.php:946
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/functions.php:947
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/functions.php:948
+msgid "Vatican City"
+msgstr ""
+
+#: includes/functions.php:949
+msgid "Venezuela"
+msgstr ""
+
+#: includes/functions.php:950
+msgid "Vietnam"
+msgstr ""
+
+#: includes/functions.php:951
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/functions.php:952
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/functions.php:953
+msgid "Yemen"
+msgstr ""
+
+#: includes/functions.php:954
+msgid "Zambia"
+msgstr ""
+
+#: includes/functions.php:955
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/functions.php:970
+msgid "January"
+msgstr ""
+
+#: includes/functions.php:971
+msgid "February"
+msgstr ""
+
+#: includes/functions.php:972
+msgid "March"
+msgstr ""
+
+#: includes/functions.php:973
+msgid "April"
+msgstr ""
+
+#: includes/functions.php:974
+msgid "May"
+msgstr ""
+
+#: includes/functions.php:975
+msgid "June"
+msgstr ""
+
+#: includes/functions.php:976
+msgid "July"
+msgstr ""
+
+#: includes/functions.php:977
+msgid "August"
+msgstr ""
+
+#: includes/functions.php:978
+msgid "September"
+msgstr ""
+
+#: includes/functions.php:979
+msgid "October"
+msgstr ""
+
+#: includes/functions.php:980
+msgid "November"
+msgstr ""
+
+#: includes/functions.php:981
+msgid "December"
+msgstr ""
+
+#: includes/functions.php:996
+msgid "Sunday"
+msgstr ""
+
+#: includes/functions.php:997
+msgid "Monday"
+msgstr ""
+
+#: includes/functions.php:998
+msgid "Tuesday"
+msgstr ""
+
+#: includes/functions.php:999
+msgid "Wednesday"
+msgstr ""
+
+#: includes/functions.php:1000
+msgid "Thursday"
+msgstr ""
+
+#: includes/functions.php:1001
+msgid "Friday"
+msgstr ""
+
+#: includes/functions.php:1002
+msgid "Saturday"
+msgstr ""
+
+#: includes/integrations.php:30
+msgid "Select a form to display"
+msgstr ""
+
+#: includes/integrations.php:37
+msgid "No forms found"
+msgstr ""
+
+#: includes/integrations.php:46
+msgid "Content"
+msgstr ""
+
+#: includes/integrations.php:47
+msgid "Add your form"
+msgstr ""
+
+#: includes/integrations.php:55
+msgid "Select a form to add it to your post or page."
+msgstr ""
+
+#: includes/integrations.php:60
+msgid "Display Form Name"
+msgstr ""
+
+#: includes/integrations.php:67
+msgid "Would you like to display the forms name?"
+msgstr ""
+
+#: includes/integrations.php:75
+msgid "Display Form Description"
+msgstr ""
+
+#: includes/integrations.php:82
+msgid "Would you like to display the forms description?"
+msgstr ""
+
+#: advance/includes/class-conditional-logic-fields.php:346
+msgid "Entry Notification stopped by conditional logic."
+msgstr ""
+
+#: includes/admin/admin.php:150
+msgid "Are you sure you want to delete ALL archives?"
+msgstr ""
+
+#: includes/admin/admin.php:152
+#: advance/includes/admin/entries/class-entries-single.php:486
+msgid "Show Empty Fields"
+msgstr ""
+
+#: includes/admin/admin.php:153
+msgid "Archives Field Columns"
+msgstr ""
+
+#: includes/admin/admin.php:154
+msgid "Are you sure you want to delete this note?"
+msgstr ""
+
+#: includes/admin/admin.php:155
+msgid "Unstar entry"
+msgstr ""
+
+#: includes/admin/admin.php:156
+msgid "Star entry"
+msgstr ""
+
+#: includes/admin/admin.php:157
+msgid "Mark entry read"
+msgstr ""
+
+#: includes/admin/admin.php:158
+msgid "Mark entry unread"
+msgstr ""
+
+#: includes/admin/admin.php:159
+msgid "Select fields"
+msgstr ""
+
+#: includes/admin/admin.php:163
+msgid "Please select at least one form to import."
+msgstr ""
+
+#: includes/admin/admin.php:167
+msgid "Install and Activate"
+msgstr ""
+
+#: includes/admin/admin.php:168
+msgid ""
+"needs to be installed and activated to import its forms. Would you like us "
+"to install and activate it for you?"
+msgstr ""
+
+#: includes/admin/admin.php:170
+msgid ""
+"needs to be activated to import its forms. Would you like us to activate it "
+"for you?."
+msgstr ""
+
+#: includes/admin/admin.php:171
+msgid "Are you sure you want to disconnect this account?"
+msgstr ""
+
+#: includes/admin/admin.php:172
+msgid "Could not authenticate with the provider."
+msgstr ""
+
+#: includes/admin/admin.php:173
+msgid "Save and Refresh"
+msgstr ""
+
+#: includes/admin/admin.php:174
+msgid "Upgrade was successfully completed!"
+msgstr ""
+
+#: includes/admin/admin.php:175
+msgid "Upload or Choose Your Image"
+msgstr ""
+
+#: includes/admin/admin.php:176
+msgid "Use Image"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:22
+msgid "You do not have permission."
+msgstr ""
+
+#: includes/admin/ajax-actions.php:27
+msgid "No data provided"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:67
+msgid "An error occurred and the form could not be saved"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:93
+msgid "No form name provided"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:130
+msgid "Error creating form"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:148
+msgid "No form ID provided"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:171
+msgid "Error updating form template"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:279 includes/fields/class-base.php:587
+#: includes/fields/class-base.php:652
+msgid "post type"
+msgstr ""
+
+#: includes/admin/ajax-actions.php:307 includes/fields/class-base.php:594
+#: includes/fields/class-base.php:659
+msgid "taxonomy"
+msgstr ""
+
+#: includes/admin/class-editor.php:58
+msgid "Insert Form"
+msgstr ""
+
+#: includes/admin/class-editor.php:67
+msgid "Select a form below to insert"
+msgstr ""
+
+#: includes/admin/class-editor.php:73
+msgid "Show form name"
+msgstr ""
+
+#: includes/admin/class-editor.php:74
+msgid "Show form description"
+msgstr ""
+
+#: includes/admin/class-editor.php:77
+#: includes/admin/overview/class-overview-table.php:325
+#, php-format
+msgid "Dont have created a form yet. Create new form <a href=\"%s\">here </a>"
+msgstr ""
+
+#: includes/admin/class-editor.php:89
+msgid "Add Form"
+msgstr ""
+
+#: includes/admin/class-menu.php:59
+msgid "Form Builder"
+msgstr ""
+
+#: includes/admin/class-menu.php:69
+msgid "Form Archives"
+msgstr ""
+
+#: includes/admin/class-menu.php:81
+msgid "WPForms Settings"
+msgstr ""
+
+#: includes/admin/class-menu.php:102
+msgid "Info"
+msgstr ""
+
+#: includes/admin/class-settings.php:144
+msgid "Settings were successfully saved."
+msgstr ""
+
+#: includes/admin/class-settings.php:175 includes/admin/class-settings.php:278
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/admin/class-settings.php:337 includes/admin/class-settings.php:344
+msgid "Integrations"
+msgstr ""
+
+#: includes/admin/class-settings.php:337 includes/admin/class-settings.php:344
+msgid ""
+"Manage integrations with popular providers such as Constant Contact, "
+"MailChimp, Zapier, and more."
+msgstr ""
+
+#: includes/admin/class-tools.php:88 includes/admin/class-tools.php:233
+#: includes/admin/class-tools.php:273 includes/admin/class-tools.php:336
+msgid "Import"
+msgstr ""
+
+#: includes/admin/class-tools.php:89 includes/admin/class-tools.php:516
+msgid "Export"
+msgstr ""
+
+#: includes/admin/class-tools.php:90
+msgid "System Info"
+msgstr ""
+
+#: includes/admin/class-tools.php:178
+#, php-format
+msgid ""
+"Import was successfully finished. You can go and <a href=\"%s\">check your "
+"forms</a>."
+msgstr ""
+
+#: includes/admin/class-tools.php:218
+msgid "WPForms Import"
+msgstr ""
+
+#: includes/admin/class-tools.php:219
+msgid "Select a WPForms export file."
+msgstr ""
+
+#: includes/admin/class-tools.php:225
+msgid "No file chosen"
+msgstr ""
+
+#: includes/admin/class-tools.php:227
+msgid "Choose a file&hellip;"
+msgstr ""
+
+#: includes/admin/class-tools.php:239
+msgid "Import from Other Form Plugins"
+msgstr ""
+
+#: includes/admin/class-tools.php:240
+msgid "Not happy with other WordPress contact form plugins?"
+msgstr ""
+
+#: includes/admin/class-tools.php:241
+msgid ""
+"WPForms makes it easy for you to switch by allowing you import your third-"
+"party forms with a single click."
+msgstr ""
+
+#: includes/admin/class-tools.php:245
+msgid "No form importers are currently enabled."
+msgstr ""
+
+#: includes/admin/class-tools.php:250
+msgid "Select previous contact form plugin..."
+msgstr ""
+
+#: includes/admin/class-tools.php:255
+#: advance/includes/admin/class-addons.php:124
+msgid "Not Installed"
+msgstr ""
+
+#: includes/admin/class-tools.php:257
+msgid "Not Active"
+msgstr ""
+
+#: includes/admin/class-tools.php:294
+msgid "Form Import"
+msgstr ""
+
+#: includes/admin/class-tools.php:300
+msgid "Select the forms you would like to import."
+msgstr ""
+
+#: includes/admin/class-tools.php:304
+msgid "Available Forms"
+msgstr ""
+
+#: includes/admin/class-tools.php:309
+msgid "No forms found."
+msgstr ""
+
+#: includes/admin/class-tools.php:323
+msgid "Select All"
+msgstr ""
+
+#: includes/admin/class-tools.php:328
+msgid "Forms to Import"
+msgstr ""
+
+#. %1$s - current forms counter; %2$s - total forms counter; %3$s - provider name.
+#: includes/admin/class-tools.php:347
+#, php-format
+msgid "Analyzing %1$s of %2$s forms from %3$s."
+msgstr ""
+
+#: includes/admin/class-tools.php:355
+msgid "Heads Up!"
+msgstr ""
+
+#: includes/admin/class-tools.php:356
+msgid ""
+"One or more of your forms contain fields that are not available in WPForms "
+"Lite. To properly impor tthese fields, we recommend upgrading to WPForms Pro."
+msgstr ""
+
+#: includes/admin/class-tools.php:357
+msgid ""
+"You can continue with the import without upgrading, and we will do our best "
+"to match the fields. However, some of them will be omitted due to "
+"compatibility issues."
+msgstr ""
+
+#: includes/admin/class-tools.php:359
+msgid "Upgrade to WPForms Pro"
+msgstr ""
+
+#: includes/admin/class-tools.php:360
+msgid "Continue Import without Upgrading"
+msgstr ""
+
+#: includes/admin/class-tools.php:363
+msgid "Below are the list of form fields that may be impacted:"
+msgstr ""
+
+#. %1$s - current forms counter; %2$s - total forms counter; %3$s - provider name.
+#: includes/admin/class-tools.php:374
+#, php-format
+msgid "Importing %1$s of %2$s forms from %3$s."
+msgstr ""
+
+#. %s - number of imported forms.
+#: includes/admin/class-tools.php:386
+#, php-format
+msgid ""
+"Congrats, the import process has finished! We have successfully imported %s "
+"forms. You can review the results below."
+msgstr ""
+
+#: includes/admin/class-tools.php:445
+#: includes/admin/builder/class-builder.php:477
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/class-tools.php:449
+msgid "The following fields are available in PRO and were not imported:"
+msgstr ""
+
+#: includes/admin/class-tools.php:457
+msgid ""
+"The following fields are available in PRO and were imported as text fields:"
+msgstr ""
+
+#: includes/admin/class-tools.php:465
+msgid "The following fields are not supported and were not imported:"
+msgstr ""
+
+#: includes/admin/class-tools.php:476
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/admin/class-tools.php:495
+msgid "Form Export"
+msgstr ""
+
+#: includes/admin/class-tools.php:497
+msgid ""
+"Form exports files can be used to create a backup of your forms or to import "
+"forms into another site."
+msgstr ""
+
+#: includes/admin/class-tools.php:503
+msgid "Select form(s)"
+msgstr ""
+
+#: includes/admin/class-tools.php:510
+msgid "You need to create a form before you can use form export."
+msgstr ""
+
+#: includes/admin/class-tools.php:522
+msgid "Form Template Export"
+msgstr ""
+
+#: includes/admin/class-tools.php:526
+msgid ""
+"The following code can be used to register your custom form template. Copy "
+"and paste the following code to your theme's functions.php file or include "
+"it within an external file."
+msgstr ""
+
+#: includes/admin/class-tools.php:527
+#, php-format
+msgid ""
+"For more information <a href=\"%s\" target=\"blank\" rel=\"noopener "
+"noreferrer\">see our documentation</a>."
+msgstr ""
+
+#: includes/admin/class-tools.php:532
+msgid ""
+"Select a form to generate PHP code that can be used to register a custom "
+"form template."
+msgstr ""
+
+#: includes/admin/class-tools.php:545
+msgid "You need to create a form before you can generate a template."
+msgstr ""
+
+#: includes/admin/class-tools.php:551
+msgid "Export Template"
+msgstr ""
+
+#: includes/admin/class-tools.php:566
+msgid "System Information"
+msgstr ""
+
+#: includes/admin/class-tools.php:633
+msgid "Please upload a valid .json form export file."
+msgstr ""
+
+#: includes/admin/class-tools.php:634
+#: advance/includes/admin/entries/class-entries-export.php:335
+msgid "Error"
+msgstr ""
+
+#: includes/admin/settings-api.php:67
+#, php-format
+msgid "The callback function used for the %s setting is missing."
+msgstr ""
+
+#: includes/admin/settings-api.php:231
+msgid "Upload Image"
+msgstr ""
+
+#: includes/emails/class-emails.php:393
+msgid ""
+"You cannot send emails with WPForms_WP_Emails until init/admin_init has been "
+"reached."
+msgstr ""
+
+#: includes/emails/class-emails.php:538 includes/emails/class-emails.php:560
+#: includes/fields/class-checkbox.php:189 includes/fields/class-radio.php:189
+#: includes/fields/class-select.php:194 includes/fields/class-store.php:185
+msgid "(empty)"
+msgstr ""
+
+#: includes/emails/class-emails.php:539 includes/emails/class-emails.php:559
+msgid "Field ID #"
+msgstr ""
+
+#: includes/emails/class-emails.php:582
+msgid "An empty form was submitted."
+msgstr ""
+
+#: includes/fields/class-base.php:349
+msgid "文字数を制限したい場合、半角で数字を入力してください。"
+msgstr ""
+
+#: includes/fields/class-base.php:455
+msgid ""
+"Check this option to mark the field required. A form will not submit unless "
+"all required fields are provided."
+msgstr ""
+
+#: includes/fields/class-base.php:528
+msgid "Enter code for the form field."
+msgstr ""
+
+#: includes/fields/class-base.php:531
+msgid "Code"
+msgstr ""
+
+#. translators: %1$s - source name; %2$s - type name.
+#: includes/fields/class-base.php:603 includes/fields/class-base.php:668
+#, php-format
+msgid "Choices are dynamically populated from the %1$s %2$s"
+msgstr ""
+
+#: includes/fields/class-base.php:691
+msgid "Add choices for the form field."
+msgstr ""
+
+#: includes/fields/class-base.php:700
+msgid "Items"
+msgstr ""
+
+#: includes/fields/class-base.php:849
+msgid "Hide Label"
+msgstr ""
+
+#: includes/fields/class-base.php:867
+msgid "Hide Sub-Labels"
+msgstr ""
+
+#: includes/fields/class-base.php:906
+msgid "Select auto-populate method to use."
+msgstr ""
+
+#: includes/fields/class-base.php:909 includes/fields/class-base.php:941
+msgid "Post Type"
+msgstr ""
+
+#: includes/fields/class-base.php:910 includes/fields/class-base.php:952
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/fields/class-base.php:914
+msgid "Dynamic Choices"
+msgstr ""
+
+#: includes/fields/class-base.php:962
+#, php-format
+msgid "Select %s to use for auto-populating field choices."
+msgstr ""
+
+#: includes/fields/class-base.php:963
+#, php-format
+msgid "Dynamic %s Source"
+msgstr ""
+
+#: includes/fields/class-base.php:1077
+msgid "You do no have permission."
+msgstr ""
+
+#: includes/fields/class-base.php:1082
+msgid "No form ID found"
+msgstr ""
+
+#: includes/fields/class-base.php:1087
+msgid "No field type found"
+msgstr ""
+
+#: includes/fields/class-checkbox.php:95 includes/fields/class-radio.php:96
+#: includes/fields/class-select.php:95 includes/fields/class-store.php:92
+msgid "Show Values"
+msgstr ""
+
+#: includes/fields/class-checkbox.php:96 includes/fields/class-radio.php:97
+#: includes/fields/class-store.php:93
+msgid "Check this to manually set form field values."
+msgstr ""
+
+#: includes/fields/class-checkbox.php:207 includes/fields/class-radio.php:207
+#: includes/fields/class-store.php:203
+#, php-format
+msgid ""
+"Showing the first 20 choices.<br> All %d choices will be displayed when "
+"viewing the form."
+msgstr ""
+
+#: includes/fields/class-email.php:93
+msgid "確認用に再度入力してください。※セキュリティ保護のため貼付けを禁止しております。"
+msgstr ""
+
+#: includes/fields/class-name.php:78
+msgid "First"
+msgstr ""
+
+#: includes/fields/class-name.php:102
+msgid "Autokana First"
+msgstr ""
+
+#: includes/fields/class-name.php:125
+msgid "Autokana Last"
+msgstr ""
+
+#: includes/fields/class-name.php:148
+msgid "Last"
+msgstr ""
+
+#: includes/fields/class-radio.php:36 includes/fields/class-select.php:35
+msgid "その他"
+msgstr ""
+
+#: includes/providers/class-base.php:91
+msgid "Connection"
+msgstr ""
+
+#: includes/providers/class-base.php:161 includes/providers/class-base.php:1113
+#: includes/providers/class-base.php:1161
+msgid "You do not have permission"
+msgstr ""
+
+#: includes/providers/class-base.php:465
+#, php-format
+msgctxt "Name field label"
+msgid "%s (Full)"
+msgstr ""
+
+#: includes/providers/class-base.php:476
+#, php-format
+msgctxt "Name field label"
+msgid "%s (First)"
+msgstr ""
+
+#: includes/providers/class-base.php:488
+#, php-format
+msgctxt "Name field label"
+msgid "%s (Middle)"
+msgstr ""
+
+#: includes/providers/class-base.php:500
+#, php-format
+msgctxt "Name field label"
+msgid "%s (Last)"
+msgstr ""
+
+#: includes/providers/class-base.php:699
+msgid "Select Account"
+msgstr ""
+
+#: includes/providers/class-base.php:711
+msgid "Add New Account"
+msgstr ""
+
+#: includes/providers/class-base.php:744
+msgid "Select List"
+msgstr ""
+
+#: includes/providers/class-base.php:790
+msgid "Select Groups"
+msgstr ""
+
+#: includes/providers/class-base.php:792
+msgid ""
+"We also noticed that you have some segments in your list. You can select "
+"specific list segments below if needed. This is optional."
+msgstr ""
+
+#: includes/providers/class-base.php:852 includes/providers/class-base.php:857
+msgid "List Fields"
+msgstr ""
+
+#: includes/providers/class-base.php:857
+msgid "Available Form Fields"
+msgstr ""
+
+#: includes/providers/class-base.php:931
+msgid "Process"
+msgstr ""
+
+#: includes/providers/class-base.php:932
+msgid "Don't process"
+msgstr ""
+
+#: includes/providers/class-base.php:934
+msgid "this connection if"
+msgstr ""
+
+#: includes/providers/class-base.php:935
+msgid "Marketing provider connection"
+msgstr ""
+
+#: includes/providers/class-base.php:1049
+#, php-format
+msgctxt "Provider Type"
+msgid "Add New %s"
+msgstr ""
+
+#: includes/providers/class-base.php:1121
+#: includes/providers/class-base.php:1169
+msgid "Missing data"
+msgstr ""
+
+#: includes/providers/class-base.php:1137
+msgid "Connection missing"
+msgstr ""
+
+#: includes/providers/class-base.php:1181
+msgid "Could not connect to the provider."
+msgstr ""
+
+#: includes/providers/class-base.php:1190
+#: includes/providers/class-base.php:1263
+#, php-format
+msgctxt "Connection date"
+msgid "Connected on: %s"
+msgstr ""
+
+#: includes/providers/class-base.php:1191
+#: includes/providers/class-base.php:1264
+msgid "Disconnect"
+msgstr ""
+
+#. translators: %s - provider name.
+#: includes/providers/class-base.php:1219
+#, php-format
+msgid "Connect to %s"
+msgstr ""
+
+#. translators: %s - provider name.
+#: includes/providers/class-base.php:1246
+#, php-format
+msgid "Integrate %s with WPForms"
+msgstr ""
+
+#: includes/providers/class-base.php:1249
+msgid "Connected"
+msgstr ""
+
+#: includes/providers/class-base.php:1274
+msgctxt "New Provider Account"
+msgid "Add New Account"
+msgstr ""
+
+#: includes/providers/class-base.php:1281
+msgid ""
+"Please fill out all of the fields below to add your new provider account."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:63
+msgid "Nonce check failed."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:73
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:106
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:115
+msgid "Settings saved."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:117
+msgid "Settings are not saved."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:133
+msgid "Please enter a valid email address in the recipient email field."
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:261
+msgid "None"
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:267
+msgid "SSL"
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:273
+msgid "TLS"
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:320
+msgid "Clear SMTP Settings"
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:348
+msgid "Are you sure want to clear log?"
+msgstr ""
+
+#: includes/smtp/wp-smtp-admin-menu.php:356
+msgid "Log cleared."
+msgstr ""
+
+#: includes/templates/class-review.php:62
+msgid "Review template"
+msgstr ""
+
+#: includes/templates/class-review.php:79
+msgid "商品名"
+msgstr ""
+
+#: includes/templates/class-review.php:87
+#: includes/templates/class-subscribe.php:60
+msgid "お名前"
+msgstr ""
+
+#: includes/templates/class-review.php:93
+msgid "ペンネーム"
+msgstr ""
+
+#: includes/templates/class-review.php:100
+#: includes/templates/class-subscribe.php:81
+msgid "メールアドレス"
+msgstr ""
+
+#: includes/templates/class-review.php:109
+msgid "年齢"
+msgstr ""
+
+#: includes/templates/class-review.php:116
+msgid "職業"
+msgstr ""
+
+#: includes/templates/class-review.php:122
+msgid "画像アップロード"
+msgstr ""
+
+#: includes/templates/class-review.php:128
+msgid "お悩み"
+msgstr ""
+
+#: includes/templates/class-review.php:136
+msgid "本文"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:21
+msgid "First template of simple form, include some basic fields."
+msgstr "最初フォームを作成する場合、こちらのテンプレートを使用してください。基本のフォーマットを使用できます。"
+
+#: includes/templates/class-subscribe.php:36
+#: includes/templates/class-subscribe.php:89
+msgid "お問合せ内容"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:39
+#: includes/templates/class-subscribe.php:40
+msgid "お困り事について"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:43
+#: includes/templates/class-subscribe.php:44
+msgid "サービスについて"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:47
+#: includes/templates/class-subscribe.php:48
+msgid "資料請求"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:51
+#: includes/templates/class-subscribe.php:52
+msgid "その他お問合せ"
+msgstr ""
+
+#: includes/templates/class-subscribe.php:75
+msgid "会社名"
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:22
+msgid "Addon deactivated."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:24
+msgid "Could not deactivate addon. Please deacticate from the Plugins page."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:45
+msgid "Addon activated."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:49
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:65
+#: advance/includes/admin/ajax-actions.php:84
+#: advance/includes/admin/ajax-actions.php:87
+#: advance/includes/admin/ajax-actions.php:113
+msgid ""
+"Could not install addon. Please download from wpforms.com and install "
+"manually."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:107
+msgid "Addon installed."
+msgstr ""
+
+#: advance/includes/admin/ajax-actions.php:222
+#: advance/includes/admin/ajax-actions.php:267
+msgid "Please enter a license key."
+msgstr ""
+
+#: advance/includes/fields/class-address.php:39
+msgid "US"
+msgstr ""
+
+#: advance/includes/fields/class-address.php:43
+msgid "Zip Code"
+msgstr ""
+
+#: advance/includes/fields/class-address.php:44
+msgid "State"
+msgstr ""
+
+#: advance/includes/fields/class-address.php:48
+msgid "International"
+msgstr ""
+
+#: advance/includes/fields/class-date-time.php:184
+msgid "Advanced time options"
+msgstr ""
+
+#: advance/includes/fields/class-date-time.php:215
+msgid "11時"
+msgstr ""
+
+#: advance/includes/fields/class-date-time.php:220
+msgid "13時"
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:400
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:401
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:402
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:403
+msgid "No file was uploaded."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:405
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:406
+msgid "Failed to write file to disk."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:407
+msgid "File upload stopped by extension."
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:409
+#, php-format
+msgid "File upload error. %s"
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:430
+msgid "File exceeds max size allowed"
+msgstr ""
+
+#: advance/includes/fields/class-file-upload.php:447
+msgid "File must have an extension."
+msgstr ""
+
+#. %1$s - current step in multi-page form; %2$d - total number of pages.
+#: advance/includes/fields/class-page-break.php:149
+#, php-format
+msgid "Step %1$s of %2$d"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:283
+msgid "Bulk Add"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:284
+msgid "Hide Bulk Add"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:292
+msgid ""
+"The {source} {type} contains over {limit} items ({total}). This may make the "
+"field difficult for your vistors to use and/or cause the form to be slow."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:296
+msgid ""
+"Due to form changes, conditional logic rules have been removed or updated:"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:298
+#: advance/includes/admin/entries/class-entries-list-table.php:196
+#: advance/includes/admin/entries/class-entries-list-table.php:207
+#: advance/includes/admin/entries/class-entries-list.php:397
+#: advance/includes/admin/entries/class-entries-list.php:411
+msgid "Field"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:299
+msgid "Field Locked"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:300
+msgid "This field cannot be deleted or duplicated."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:301
+msgid "Available Fields"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:302
+msgid "No fields available"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:305
+msgid "No email fields"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:306
+msgid "Are you sure you want to delete this notification?"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:307
+msgid "Enter a notification name"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:308
+msgid "Eg: User Confirmation"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:309
+msgid "You must provide a notification name"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:310
+msgid ""
+"Form must contain one notification. To disable all notifications use the "
+"Notifications dropdown setting."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:315
+msgid "Save and Exit"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:318
+msgid "Hide Layouts"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:319
+msgid "Select your layout"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:320
+msgid "Select your column"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:327
+msgid "Use Template"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:331
+#: includes/admin/builder/class-builder.php:492
+msgid "Exit"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:336
+msgid "(copy)"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:337
+msgid "Please enter a form name."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:338
+msgid "This item must contain at least one choice."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:341
+msgid "or"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:342
+msgid "Other"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:351
+msgid ""
+"Form entries must be stored to accept payments. Please enable saving form "
+"entries in the General settings first."
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:354
+msgid "Add new group"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:393
+msgid "Countries"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:397
+msgid "Countries Postal Code"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:401
+msgid "States"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:405
+msgid "States Postal Code"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:409
+msgid "Months"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:413
+msgid "Days"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:475
+msgid "Preview Form"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:480
+msgid "Embed Form"
+msgstr ""
+
+#: includes/admin/builder/class-builder.php:485
+msgid "Save Form"
+msgstr ""
+
+#: includes/admin/importers/class-base.php:112
+msgid "There was an error while creating a new form."
+msgstr ""
+
+#: includes/admin/importers/class-contact-form-7.php:105
+#: includes/admin/importers/class-ninja-forms.php:122
+msgid "Sending"
+msgstr ""
+
+#: includes/admin/importers/class-contact-form-7.php:110
+#: includes/admin/importers/class-ninja-forms.php:127
+msgid "Notification 1"
+msgstr ""
+
+#. translators: %s - Contact Form 7 form name.
+#. translators: %s - Ninja Forms form name.
+#: includes/admin/importers/class-contact-form-7.php:113
+#: includes/admin/importers/class-contact-form-7.php:398
+#: includes/admin/importers/class-ninja-forms.php:130
+#: includes/admin/importers/class-ninja-forms.php:402
+#, php-format
+msgid "New Entry: %s"
+msgstr ""
+
+#: includes/admin/importers/class-contact-form-7.php:132
+#: includes/admin/importers/class-ninja-forms.php:149
+msgid "No form fields found."
+msgstr ""
+
+#: includes/admin/importers/class-contact-form-7.php:300
+msgid "Acceptance Field"
+msgstr ""
+
+#: includes/admin/importers/class-contact-form-7.php:395
+msgid "Notification 2"
+msgstr ""
+
+#. translators: %1$s - field type; %2$s - field name if available.
+#: includes/admin/importers/class-contact-form-7.php:488
+#, php-format
+msgid "%1$s Field%2$s"
+msgstr ""
+
+#: includes/admin/importers/class-ninja-forms.php:399
+#: includes/admin/importers/class-ninja-forms.php:415
+msgid "Notification"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:52
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:140
+#: includes/admin/overview/class-overview-table.php:157
+msgid "Edit this form"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:171
+msgid "View archives"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:190
+msgid "Duplicate this form"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:207
+msgid "Delete this form"
+msgstr ""
+
+#: includes/admin/overview/class-overview-table.php:300
+msgid "Forms were successfully duplicated."
+msgstr ""
+
+#: includes/admin/overview/class-overview.php:74
+msgid "Number of forms per page:"
+msgstr ""
+
+#. translators: %s - link to a site.
+#: includes/emails/templates/footer-default.php:39
+#, php-format
+msgid "Sent from %s"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-export.php:334
+msgid "You do not have permission to export entries."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:127
+msgid "All"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:152
+msgid "Change columns to display"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:302
+#: advance/includes/admin/entries/class-entries-single.php:804
+msgid "Unknown"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:309
+#: advance/includes/admin/entries/class-entries-single.php:747
+msgid "Completed"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:372
+msgid "View Form Entry"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:390
+msgid "Delete Form Entry"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:464
+msgid "Entry was successfully marked as read."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:466
+msgid "Entries were successfully marked as read."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:490
+msgid "Entry was successfully marked as unread."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:492
+msgid "Entries were successfully marked as unread."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:516
+msgid "Entry was successfully starred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:518
+msgid "Entries were successfully starred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:542
+msgid "Entry was successfully unstarred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:544
+msgid "Entries were successfully unstarred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:563
+msgid "Archive was successfully deleted."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:565
+msgid "Archives were successfully deleted."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list-table.php:581
+msgid "Whoops, it appears you do not have any form archives yet."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:140
+msgid "Number of archives per page:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:224
+msgid "All entries marked as read."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:281
+msgid "All entries for the currently selected form were successfully deleted."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:309
+#, php-format
+msgid ""
+"Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a "
+"go</a>?"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:384
+msgid "Select the fields to show when viewing the entries list for this form."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:386
+msgid ""
+"Currently columns have not been configured, so we're showing the first 3 "
+"fields."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-list.php:500
+msgid "Open form selector"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:158
+msgid "This entry has been starred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:175
+msgid "This entry has been unstarred."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:208
+msgid "This entry has been marked unread."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:235
+msgid "Note deleted."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:271
+msgid "Note added."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:305
+msgid "Notifications sent!"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:323
+msgid "Invalid entry ID."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:336
+msgid "Entry not found."
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:563
+#: advance/includes/admin/entries/class-entries-single.php:578
+msgid "Add Note"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:587
+msgid "No notes."
+msgstr ""
+
+#. translators: %1$s - user link; %2$s - date; %3$s - separator; %4$s - link to
+#. delete a note
+#: advance/includes/admin/entries/class-entries-single.php:624
+#, php-format
+msgid "Added by %1$s on %2$s %3$s %4$s"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:628
+msgctxt "Entry: note"
+msgid "Delete"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:666
+msgid "Debug Information"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:717
+msgid "Modified:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:726
+msgid "User:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:746
+msgid "Status:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:814
+msgid "Stripe"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:820
+msgid "PayPal Standard"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:833
+msgid "Payment Details"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:841
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:845
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:850
+#, php-format
+msgid "Gateway: %s"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:852
+msgctxt "Gateway mode"
+msgid "Test"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:858
+msgid "Transaction ID:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:863
+msgid "Note:"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:939
+msgid "Unstar"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:939
+msgid "Star"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:1016
+msgid "Related Entries"
+msgstr ""
+
+#: advance/includes/admin/entries/class-entries-single.php:1021
+msgid "The user who created this entry also submitted the entries below."
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:83
+msgid ""
+"You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-"
+"panel=\"setup\">setup your form</a> before you can manage the settings."
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:133
+msgid "This options to allow all data of form can be stored in Archives "
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:145
+msgid "四角"
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:146
+msgid "角丸"
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:147
+msgid "円形"
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:176
+msgid ""
+"Enter CSS class names for the form wrapper. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+
+#: includes/admin/builder/panels/class-settings.php:196
+msgid ""
+"Enter the submit button text you would like the button display while the "
+"form submit is processing."
+msgstr ""
+
+#: includes/admin/builder/panels/class-setup.php:102
+#, php-format
+msgctxt "Template name"
+msgid "%s template"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.infact1.co.jp/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Infact"
+msgstr ""
+
+#: includes/admin/admin.php:161
+msgid "Are you sure you want to duplicate this form?"
+msgstr "このフォームをコピーしてよろしいですか？"
+
+#: advance/includes/fields/class-date-time.php:425
+msgid " Date"
+msgstr "日付"
+
+#: advance/advance-functions.php:158 includes/admin/class-menu.php:70
+#: includes/admin/overview/class-overview-table.php:172
+#: advance/includes/admin/entries/class-entries-list.php:330
+msgid "Archives"
+msgstr "問合せ受付一覧"
+
+#: advance/advance-functions.php:258 advance/advance-functions.php:266
+#: includes/admin/builder/panels/class-settings.php:62
+msgid "Notifications"
+msgstr "通知"
+
+#: advance/advance-functions.php:270 advance/advance-functions.php:286
+#: advance/advance-functions.php:301 advance/advance-functions.php:317
+#: includes/fields/class-base.php:253
+#: includes/admin/builder/class-builder.php:340
+#: includes/admin/builder/panels/class-settings.php:130
+msgid "On"
+msgstr "オン"
+
+#: advance/advance-functions.php:271 advance/advance-functions.php:287
+#: advance/advance-functions.php:302 advance/advance-functions.php:318
+#: includes/fields/class-base.php:253 includes/fields/class-base.php:908
+#: includes/admin/builder/class-builder.php:339
+#: includes/admin/builder/panels/class-settings.php:131
+msgid "Off"
+msgstr "オフ"
+
+#: advance/advance-functions.php:282
+msgid "Previous url "
+msgstr "前のURL"
+
+#: advance/advance-functions.php:289
+msgid ""
+"This options to allow Previous url can be installed in email to admin "
+"automatically. "
+msgstr "どこのページから問合せがあったか表示/非表示"
+
+#: advance/advance-functions.php:297
+msgid "Enable attachment fields to admin mail "
+msgstr "管理メールへ添付ファイル有効"
+
+#: advance/advance-functions.php:304
+msgid "This options to allow All Attachments can be installed in email. "
+msgstr "フォームの添付ファイル表示/非表示"
+
+#: advance/advance-functions.php:313
+msgid "Enable adding 様 character after First name."
+msgstr "お名前に「様」文字を追加"
+
+#: advance/advance-functions.php:325
+#: includes/admin/builder/class-builder.php:311
+msgid "Default Notification"
+msgstr "デフォルト通知"
+
+#: advance/advance-functions.php:362
+msgid "Send To Email Address"
+msgstr "送信先"
+
+#: advance/advance-functions.php:365
+msgid ""
+"Enter the email address to receive form entry notifications. For multiple "
+"notifications, separate email addresses with a comma."
+msgstr "フォーム受信管理メールアドレスを設定する項目です。複数メールアドレスの場合、コンマで区分けする"
+
+#: advance/advance-functions.php:408
+msgid "Email Subject"
+msgstr "メールの件名"
+
+#: advance/advance-functions.php:420 includes/smtp/wp-smtp-admin-menu.php:232
+msgid "From Name"
+msgstr "名前"
+
+#: advance/advance-functions.php:433
+msgid "From Email"
+msgstr "送信メールアドレス "
+
+#: advance/advance-functions.php:445
+msgid "Reply-To"
+msgstr "返信先"
+
+#: advance/advance-functions.php:458
+#: includes/admin/builder/panels/class-settings.php:244
+msgid "Message"
+msgstr "メッセージ"
+
+#: advance/advance-functions.php:465
+msgid ""
+"To display all form fields, use the <code>{all_fields}</code> Smart Tag. "
+msgstr " <code>{all_fields}</code> で送信したフォーム内容を表示させます。"
+
+#: advance/advance-functions.php:478
+msgid "Send"
+msgstr "送信"
+
+#: advance/advance-functions.php:479
+msgid "Don't send"
+msgstr "来なくて良い！"
+
+#: advance/advance-functions.php:482
+msgid "Email notifications"
+msgstr "メールでの通知"
+
+#: includes/class-frontend.php:1241 includes/fields/class-base.php:1222
+#: includes/fields/class-name.php:614
+#: advance/includes/fields/class-address.php:728
+#: advance/includes/fields/class-date-time.php:732
+#: advance/includes/fields/class-file-upload.php:419
+msgid "This field is required."
+msgstr "この項目は入力必須です。"
+
+#: includes/class-frontend.php:1242
+msgid "Please enter a valid URL."
+msgstr "URL形式を正しく入力してください。"
+
+#: includes/class-frontend.php:1243
+msgid "Please enter a valid email address."
+msgstr "メールアドレスの形式が正しくないようです。"
+
+#: includes/class-frontend.php:1244
+msgid "Please enter a valid number."
+msgstr "有効な数値を入力してください。"
+
+#: includes/class-frontend.php:1245
+msgid "Field values do not match."
+msgstr "確認メールは正しく入力されません。"
+
+#: includes/class-frontend.php:1246
+#: advance/includes/fields/class-file-upload.php:457
+#: advance/includes/fields/class-file-upload.php:473
+#: advance/includes/fields/class-file-upload.php:491
+msgid "File type is not allowed."
+msgstr "ファイル形式は正しくありせん。"
+
+#: includes/class-frontend.php:1247
+msgid "File exceeds max size allowed."
+msgstr "アップロードされたファイルが大きすぎる"
+
+#: includes/class-preview.php:158 includes/admin/admin.php:148
+#: includes/admin/class-editor.php:59
+#: includes/admin/builder/class-builder.php:295
+msgid "Close"
+msgstr "クローズ"
+
+#: includes/class-preview.php:194
+#: advance/includes/admin/entries/class-entries-single.php:519
+msgid "Empty"
+msgstr "未記入"
+
+#: includes/class-preview.php:371 includes/integrations.php:51
+msgid "Form"
+msgstr "フォーム"
+
+#: includes/class-process.php:125
+msgid "Incorrect reCAPTCHA, please try again."
+msgstr "認証コードを正しく入力してください。"
+
+#: includes/class-process.php:128
+msgid "reCAPTCHA is required."
+msgstr "認証コードは必須入力項目です。"
+
+#: includes/class-process.php:140 includes/class-process.php:191
+msgid "Form has not been submitted, please see the errors below."
+msgstr "フォームの送信に失敗しました。エラーメッセージをご確認ください。"
+
+#: includes/class-smart-tags.php:34
+msgid "Archive ID"
+msgstr "フォームID"
+
+#: includes/class-smart-tags.php:35
+msgid "Form ID"
+msgstr "フォームID"
+
+#: includes/class-smart-tags.php:36
+#: includes/admin/builder/panels/class-settings.php:157
+msgid "Form Name"
+msgstr "フォーム名"
+
+#: includes/class-smart-tags.php:40
+#: advance/includes/fields/class-date-time.php:73
+#: advance/includes/fields/class-date-time.php:139
+#: advance/includes/fields/class-date-time.php:295
+#: advance/includes/fields/class-date-time.php:303
+#: advance/includes/fields/class-date-time.php:313
+#: advance/includes/fields/class-date-time.php:321
+#: advance/includes/admin/entries/class-entries-list-table.php:149
+msgid "Date"
+msgstr "日程表示設定"
+
+#: includes/integrations.php:63 includes/integrations.php:78
+#: includes/smtp/wp-smtp-admin-menu.php:291
+msgid "No"
+msgstr "いいえ"
+
+#: includes/integrations.php:64 includes/integrations.php:79
+#: includes/smtp/wp-smtp-admin-menu.php:297
+msgid "Yes"
+msgstr "はい"
+
+#: includes/admin/admin.php:141 includes/admin/admin.php:169
+msgid "Activate"
+msgstr "アクティブ化する"
+
+#: includes/admin/admin.php:142 advance/includes/admin/class-addons.php:121
+msgid "Active"
+msgstr "活発な"
+
+#: includes/admin/admin.php:143
+msgid "Deactivate"
+msgstr "無効化"
+
+#: includes/admin/admin.php:144 advance/includes/admin/class-addons.php:127
+msgid "Inactive"
+msgstr "無効"
+
+#: includes/admin/admin.php:145
+msgid "Install Addon"
+msgstr "アドオンをインストール"
+
+#: includes/admin/admin.php:147 includes/admin/class-editor.php:85
+#: includes/admin/builder/class-builder.php:293
+#: advance/includes/admin/entries/class-entries-single.php:579
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/admin/admin.php:149
+msgid "Are you sure you want to delete this archive?"
+msgstr "本当にフォームを削除しますか。"
+
+#: includes/admin/admin.php:151
+#: advance/includes/admin/entries/class-entries-single.php:486
+msgid "Hide Empty Fields"
+msgstr "空のフィールドを非表示"
+
+#: includes/admin/admin.php:160
+msgid "Are you sure you want to delete this form?"
+msgstr "フォームを削除してよろしいですか?"
+
+#: includes/admin/admin.php:162 includes/admin/builder/class-builder.php:303
+msgid "Heads up!"
+msgstr "注意！"
+
+#: includes/admin/admin.php:166 includes/admin/builder/class-builder.php:294
+msgid "OK"
+msgstr "OK"
+
+#. Name of the plugin
+#: includes/admin/class-menu.php:37 includes/admin/class-menu.php:38
+#: includes/admin/class-menu.php:49
+msgid "Simple form"
+msgstr "シンプルフォーム"
+
+#: includes/admin/class-menu.php:50
+msgid "All Forms"
+msgstr "全てのフォーム"
+
+#: includes/admin/class-menu.php:60
+#: includes/admin/overview/class-overview.php:122
+msgid "Add New"
+msgstr "新規追加"
+
+#: includes/admin/class-menu.php:82 includes/admin/class-menu.php:156
+#: includes/smtp/wp-smtp.php:11
+#: includes/admin/builder/panels/class-settings.php:22
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin/class-settings.php:170 includes/admin/class-settings.php:231
+#: includes/admin/builder/panels/class-settings.php:61
+#: includes/admin/builder/panels/class-settings.php:119
+msgid "General"
+msgstr "一般"
+
+#: includes/admin/class-settings.php:172 includes/admin/class-settings.php:177
+#: includes/admin/class-settings.php:182
+msgid "Save Settings"
+msgstr "設定保存"
+
+#: includes/admin/class-settings.php:180
+msgid "Validation"
+msgstr "バリデーション"
+
+#: includes/admin/class-settings.php:239
+msgid "Color for button"
+msgstr "ボタン背景色"
+
+#: includes/admin/class-settings.php:246
+msgid "Color text for button"
+msgstr "ボタンテキスト色"
+
+#: includes/admin/class-settings.php:254
+msgid "Background color for left col"
+msgstr "項目背景色"
+
+#: includes/admin/class-settings.php:261
+msgid "Background for not required field"
+msgstr "任意項目背景色"
+
+#: includes/admin/class-settings.php:268
+msgid "Background for required field"
+msgstr "必須項目背景色"
+
+#: includes/admin/class-settings.php:285
+#: advance/includes/fields/class-date-time.php:163
+msgid "Type"
+msgstr "タイプ"
+
+#: includes/admin/class-settings.php:289
+msgid "v2 reCAPTCHA"
+msgstr "reCAPTCHA表示"
+
+#: includes/admin/class-settings.php:290
+msgid "Invisible reCAPTCHA"
+msgstr "reCAPTCHA非表示"
+
+#: includes/admin/class-settings.php:295
+msgid "Site Key"
+msgstr "サイト鍵"
+
+#: includes/admin/class-settings.php:300
+msgid "Secret Key"
+msgstr "秘密鍵"
+
+#: includes/admin/class-settings.php:308
+msgid "Validation Messages"
+msgstr "バリデーションメッセージ"
+
+#: includes/admin/class-settings.php:308
+msgid ""
+"These messages are displayed to the user as they fill out a form in real-"
+"time."
+msgstr "これらのメッセージは、ユーザーがフォームにリアルタイムで記入する際に表示されます。"
+
+#: includes/admin/class-settings.php:315 includes/fields/class-base.php:459
+msgid "Required"
+msgstr "必須"
+
+#: includes/admin/class-settings.php:321 includes/fields/class-email.php:20
+#: includes/fields/class-email.php:70 includes/fields/class-email.php:316
+msgid "Email"
+msgstr " メールアドレス"
+
+#: includes/admin/class-settings.php:327
+msgid "Number"
+msgstr "数値"
+
+#: includes/admin/class-tools.php:443
+#: includes/admin/overview/class-overview-table.php:158
+msgid "Edit"
+msgstr "編集"
+
+#: includes/fields/class-base.php:330
+msgid ""
+"Enter text for the form field label. Field labels are recommended and can be "
+"hidden in the Advanced Settings."
+msgstr "フォームのフィールドラベルのテキストを入力します。フィールドラベルは入力することを推奨しています。"
+
+#: includes/fields/class-base.php:333
+msgid "Label"
+msgstr "ラベル"
+
+#: includes/fields/class-base.php:352
+msgid "Limit character"
+msgstr "文字数制限"
+
+#: includes/fields/class-base.php:370
+msgid "Enter text for the form field description."
+msgstr "テキストを入力すると、フィールドの上にテキストが表示されます。"
+
+#: includes/fields/class-base.php:373
+msgid "Description"
+msgstr "説明"
+
+#: includes/fields/class-base.php:393
+msgid "Accept full size characters"
+msgstr "全角文字・数字を有効にする"
+
+#: includes/fields/class-base.php:408
+msgid "Accept half size characters"
+msgstr "半角文字・数字を有効にする"
+
+#: includes/fields/class-base.php:423
+msgid "Accept English numbers "
+msgstr "英数字を有効にする"
+
+#: includes/fields/class-base.php:438
+msgid "Accept English characters "
+msgstr "英文字を有効にする"
+
+#: includes/fields/class-base.php:477
+msgid "Enter any of text you want to custom for required field "
+msgstr "「必須項目」テキスト変更"
+
+#: includes/fields/class-base.php:492
+msgid "Check to active this option"
+msgstr " 時間の表示をカスタマイズしたい場合チェックを入れます"
+
+#: includes/fields/class-base.php:496
+msgid "Active custom time"
+msgstr "時間設定カスタマイズ"
+
+#: includes/fields/class-base.php:547
+msgid ""
+"Add choices for the form field. If choice is Other choice or その他, an input "
+"will be generated"
+msgstr "フィールドの選択肢を追加します。選択肢が「その他の選択」または「その他」の場合、テキストブロックが自動で生成されます。"
+
+#: includes/fields/class-base.php:559
+msgid "Choices"
+msgstr "選択"
+
+#: includes/fields/class-base.php:742
+msgid "Enter text for the default form field value."
+msgstr "テキストを入力すると、テキストボックス内にテキストが入力された状態になります。"
+
+#: includes/fields/class-base.php:746 includes/fields/class-name.php:344
+#: includes/fields/class-name.php:371 includes/fields/class-name.php:395
+#: includes/fields/class-name.php:419
+#: advance/includes/fields/class-address.php:311
+#: advance/includes/fields/class-address.php:330
+#: advance/includes/fields/class-address.php:349
+#: advance/includes/fields/class-address.php:367
+#: advance/includes/fields/class-address.php:387
+#: advance/includes/fields/class-address.php:409
+msgid "Default Value"
+msgstr "デフォルト値"
+
+#: includes/fields/class-base.php:764
+msgid "Select the default form field size."
+msgstr "フィールドのサイズを選択できます。"
+
+#: includes/fields/class-base.php:766
+msgid "Small"
+msgstr "小"
+
+#: includes/fields/class-base.php:767
+msgid "Medium"
+msgstr "中"
+
+#: includes/fields/class-base.php:768
+msgid "Large"
+msgstr "大"
+
+#: includes/fields/class-base.php:772
+msgid "Field Size"
+msgstr "ボックスの幅サイズ"
+
+#: includes/fields/class-base.php:795
+msgid "Advanced Options"
+msgstr "アドバンスオプション"
+
+#: includes/fields/class-base.php:806
+msgid "Enter text for the form field placeholder."
+msgstr "テキストを入力すると、フィールドの背景に文字が表示されます。"
+
+#: includes/fields/class-base.php:809
+msgid "Placeholder Text"
+msgstr "サンプルテキスト（背景文字）"
+
+#: includes/fields/class-base.php:832
+msgid "CSS Classes"
+msgstr "cssクラス"
+
+#: includes/fields/class-base.php:882
+msgid "One Column"
+msgstr "1カラム"
+
+#: includes/fields/class-base.php:883
+msgid "Two Columns"
+msgstr "2カラム"
+
+#: includes/fields/class-base.php:884
+msgid "Three Columns"
+msgstr "3カラム"
+
+#: includes/fields/class-base.php:888
+msgid "Choice Layout"
+msgstr "選択レイアウト"
+
+#: includes/fields/class-base.php:1116
+#: includes/admin/builder/panels/class-fields.php:253
+msgid "Delete Field"
+msgstr "フィールドを削除"
+
+#: includes/fields/class-base.php:1117
+#: includes/admin/builder/panels/class-fields.php:255
+msgid "Click to edit. Drag to reorder."
+msgstr "編集/並べ替えにドラッグします"
+
+#: includes/fields/class-checkbox.php:19
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: includes/fields/class-checkbox.php:25 includes/fields/class-radio.php:26
+#: includes/fields/class-select.php:25
+msgid "First Choice"
+msgstr "選択内容入力1"
+
+#: includes/fields/class-checkbox.php:30 includes/fields/class-radio.php:31
+#: includes/fields/class-select.php:30
+msgid "Second Choice"
+msgstr "選択内容入力2"
+
+#: includes/fields/class-checkbox.php:35
+msgid "Third Choice"
+msgstr "選択内容入力3"
+
+#: includes/fields/class-email.php:222
+msgid "Enable Email Confirmation"
+msgstr "確認メール項目表示/非表示"
+
+#: includes/fields/class-email.php:223
+msgid "Check this option to ask users to provide an email address twice."
+msgstr "チェックを入れると、ユーザーに電子メールアドレスを2回入力するように要求できます。"
+
+#: includes/fields/class-email.php:259
+msgid "Confirmation Placeholder Text"
+msgstr "確認用　サンプルテキスト（背景文字）"
+
+#: includes/fields/class-email.php:260
+msgid "Enter text for the confirmation field placeholder."
+msgstr "テキストを入力すると、フィールドの背景に文字が表示されます。"
+
+#: includes/fields/class-email.php:322
+msgid "Confirm Email"
+msgstr "メールアドレス（確認用）"
+
+#: includes/fields/class-name.php:20
+#: includes/admin/overview/class-overview-table.php:51
+msgid "Name"
+msgstr "名前"
+
+#: includes/fields/class-name.php:285
+msgid "Enable autokana"
+msgstr "カタカナ自動生成機能 ON/OFF"
+
+#: includes/fields/class-name.php:286
+msgid "Check this to generate katakana character automatically"
+msgstr "チェックを入れるとカタ文字が自動的に入力・生成されます。"
+
+#: includes/fields/class-name.php:330
+msgid "First Name"
+msgstr "姓"
+
+#: includes/fields/class-name.php:331
+msgid "First name field advanced options."
+msgstr "姓のフィールドの設定ができます。"
+
+#: includes/fields/class-name.php:336 includes/fields/class-name.php:362
+#: includes/fields/class-name.php:387 includes/fields/class-name.php:411
+msgid "Text before"
+msgstr "入力エリア上の説明テキスト"
+
+#: includes/fields/class-name.php:340 includes/fields/class-name.php:367
+#: advance/includes/fields/class-address.php:307
+#: advance/includes/fields/class-address.php:326
+#: advance/includes/fields/class-address.php:345
+#: advance/includes/fields/class-address.php:363
+#: advance/includes/fields/class-address.php:383
+#: advance/includes/fields/class-address.php:405
+#: advance/includes/fields/class-date-time.php:144
+#: advance/includes/fields/class-date-time.php:188
+msgid "Placeholder"
+msgstr "サンプルテキスト（背景文字）"
+
+#: includes/fields/class-name.php:356
+msgid "Last Name"
+msgstr "名"
+
+#: includes/fields/class-name.php:357
+msgid "Last name field advanced options."
+msgstr "名のフィールドの設定ができます。"
+
+#: includes/fields/class-name.php:383
+msgid "Autokana Field for First name"
+msgstr "自動生成カタカナ姓"
+
+#: includes/fields/class-name.php:391 includes/fields/class-name.php:415
+msgid "Place holder"
+msgstr "サンプルテキスト（背景文字）"
+
+#: includes/fields/class-name.php:407
+msgid "Autokana Field for Last name"
+msgstr "自動生成カタカナ名前"
+
+#: includes/fields/class-radio.php:20
+msgid "Multiple Choice"
+msgstr "ラジオボタン"
+
+#: includes/fields/class-select.php:19
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: includes/fields/class-store.php:20
+msgid "List of store"
+msgstr "格納一覧"
+
+#: includes/fields/class-store.php:26
+msgid "Store 1"
+msgstr "保存先1"
+
+#: includes/fields/class-store.php:31
+msgid "Store 2"
+msgstr "保存先2"
+
+#: includes/fields/class-text.php:19
+msgid "Textbox"
+msgstr "テキストボックス"
+
+#: includes/fields/class-textarea.php:20
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: includes/smtp/wp-smtp-admin-menu.php:225
+msgid "From Email Address"
+msgstr "送信先メールアドレス"
+
+#: includes/smtp/wp-smtp-admin-menu.php:247
+msgid "SMTP Host"
+msgstr "SMTPホスト"
+
+#: includes/smtp/wp-smtp-admin-menu.php:254
+msgid "Type of Encryption"
+msgstr "認証プロトコル オプション"
+
+#: includes/smtp/wp-smtp-admin-menu.php:277
+msgid "SMTP Port"
+msgstr "SMTPポート"
+
+#: includes/smtp/wp-smtp-admin-menu.php:284
+msgid "SMTP Authentication"
+msgstr "SMTP認証"
+
+#: includes/smtp/wp-smtp-admin-menu.php:301
+msgid "SMTP Username"
+msgstr "SMTPユーザ名"
+
+#: includes/smtp/wp-smtp-admin-menu.php:308
+msgid "SMTP Password"
+msgstr "SMTPパスワード"
+
+#: includes/smtp/wp-smtp-admin-menu.php:318
+msgid "Save Changes"
+msgstr "保存変更"
+
+#: includes/smtp/wp-smtp.php:445 includes/smtp/wp-smtp.php:446
+msgid "SMTP Settings"
+msgstr "SMTP設定"
+
+#: includes/templates/class-blank.php:19
+msgid "Blank template"
+msgstr "新しいフォーム作成"
+
+#: includes/templates/class-blank.php:32
+#: includes/templates/class-review.php:155
+#: includes/templates/class-subscribe.php:109
+msgid "Sending..."
+msgstr "送信中　"
+
+#: includes/templates/class-review.php:149
+#: includes/templates/class-subscribe.php:103
+#: advance/includes/fields/class-page-break.php:200
+#: advance/includes/fields/class-page-break.php:403
+#: includes/admin/builder/class-builder.php:352
+msgid "Previous"
+msgstr "戻る"
+
+#: includes/templates/class-subscribe.php:19
+msgid "Basic template"
+msgstr "基本テンプレート"
+
+#: advance/includes/fields/class-address.php:30
+msgid "Address"
+msgstr "住所"
+
+#: advance/includes/fields/class-address.php:40
+#: advance/includes/fields/class-address.php:49
+msgid "Address code 1"
+msgstr "住所コード1"
+
+#: advance/includes/fields/class-address.php:41
+#: advance/includes/fields/class-address.php:50
+msgid "Address code 2"
+msgstr "住所コード2"
+
+#: advance/includes/fields/class-address.php:42
+#: advance/includes/fields/class-address.php:51
+#: advance/includes/fields/class-address.php:341
+msgid "City"
+msgstr "都道府県"
+
+#: advance/includes/fields/class-address.php:52
+#: advance/includes/fields/class-address.php:379
+msgid "Street number"
+msgstr "町村"
+
+#: advance/includes/fields/class-address.php:53
+#: advance/includes/fields/class-address.php:359
+msgid "State / Province / Region"
+msgstr "市区"
+
+#: advance/includes/fields/class-address.php:55
+#: advance/includes/fields/class-address.php:401
+msgid "Custom address"
+msgstr "市区町村以下"
+
+#: advance/includes/fields/class-address.php:303
+msgid "Address Line 1"
+msgstr "郵便番号入力エリア①"
+
+#: advance/includes/fields/class-address.php:322
+msgid "Address Line 2"
+msgstr "郵便番号入力エリア②"
+
+#: advance/includes/fields/class-date-time.php:21
+msgid "Date / Time"
+msgstr "日付・時間"
+
+#: advance/includes/fields/class-date-time.php:60
+#: advance/includes/fields/class-date-time.php:156
+#: advance/includes/fields/class-date-time.php:196
+msgid "Format"
+msgstr "フォーマット"
+
+#: advance/includes/fields/class-date-time.php:61
+msgid "Select format for the date field."
+msgstr "表示させる項目フォーマットをお選びください"
+
+#: advance/includes/fields/class-date-time.php:72
+msgid "Date and Time"
+msgstr "日付+時間"
+
+#: advance/includes/fields/class-date-time.php:74
+#: advance/includes/fields/class-date-time.php:183
+#: advance/includes/fields/class-date-time.php:329
+#: advance/includes/fields/class-date-time.php:372
+#: advance/includes/fields/class-date-time.php:464
+msgid "Time"
+msgstr "時間"
+
+#: advance/includes/fields/class-date-time.php:140
+msgid "Advanced date options."
+msgstr "日程表示設定"
+
+#: advance/includes/fields/class-date-time.php:160
+msgid "Date Picker"
+msgstr "ポップアップカレンダー"
+
+#: advance/includes/fields/class-date-time.php:161
+msgid "Date Dropdown"
+msgstr "ドロップダウン"
+
+#: advance/includes/fields/class-date-time.php:176
+msgid "15 minutes"
+msgstr "15分"
+
+#: advance/includes/fields/class-date-time.php:177
+msgid "30 minute"
+msgstr "30分"
+
+#: advance/includes/fields/class-date-time.php:178
+msgid "1 hour"
+msgstr "1時間"
+
+#: advance/includes/fields/class-date-time.php:204
+msgid "Interval"
+msgstr "時間帯設定"
+
+#: advance/includes/fields/class-file-upload.php:102
+msgid "File Upload"
+msgstr "ファイルアップロード"
+
+#: advance/includes/fields/class-file-upload.php:233
+msgid "Allowed File Extensions"
+msgstr "ファイル拡張子を設定"
+
+#: advance/includes/fields/class-file-upload.php:234
+msgid ""
+"Enter the extensions you would like to allow, comma separated. Default is jpg"
+msgstr "許可する拡張子をカンマ区切りで入力します。"
+
+#: advance/includes/fields/class-file-upload.php:259
+msgid "Max File Size"
+msgstr "最大サイズ"
+
+#: advance/includes/fields/class-file-upload.php:260
+#, php-format
+msgid ""
+"Enter the max file size, in megabytes, to allow. If left blank, the value "
+"defaults to the maximum size the server allows which is %s."
+msgstr "許可する最大ファイルサイズをMB単位で入力します。空白のままにすると、%s になります。"
+
+#: advance/includes/fields/class-file-upload.php:306
+msgid "Store file in WordPress Media Library"
+msgstr "WordPress内のメディアライブラリーにも保存したい場合チェックを入れてください。"
+
+#: advance/includes/fields/class-file-upload.php:307
+msgid ""
+"Check this option to store the final uploaded file in the WordPress Media "
+"Library"
+msgstr "WordPress内のメディアライブラリーにも保存したい場合チェックを入れてください。"
+
+#: advance/includes/fields/class-page-break.php:27
+#: advance/includes/fields/class-page-break.php:410
+msgid "Page Break"
+msgstr "ページ区切り"
+
+#: advance/includes/fields/class-page-break.php:288
+msgid "Next Label"
+msgstr "次へ行くボタンのテキスト"
+
+#: advance/includes/fields/class-page-break.php:289
+msgid "Enter text for Next page navigation button."
+msgstr "次ページへのナビゲーションボタンのテキストを入力します。"
+
+#: advance/includes/fields/class-page-break.php:298
+#: advance/includes/fields/class-page-break.php:405
+msgid "Next"
+msgstr "確認画面へ"
+
+#: advance/includes/fields/class-page-break.php:317
+msgid "Display Previous"
+msgstr "前に戻るボタンのテキスト"
+
+#: advance/includes/fields/class-page-break.php:318
+msgid "Toggle displaying the Previous page navigation button."
+msgstr "オンにすることで、確認画面で戻るボタンが表示されます。"
+
+#: advance/includes/fields/class-page-break.php:343
+msgid "Previous Label"
+msgstr "前に戻るボタンのテキスト"
+
+#: advance/includes/fields/class-page-break.php:344
+msgid "Enter text for Previous page navigation button."
+msgstr "戻るボタンのテキストを入力してください。"
+
+#: advance/includes/fields/class-page-break.php:409
+msgid "First Page"
+msgstr "最初ページに戻る"
+
+#: includes/admin/builder/class-builder.php:312
+#: includes/admin/builder/class-builder.php:487
+msgid "Save"
+msgstr "保存"
+
+#: includes/admin/builder/class-builder.php:313
+msgid "Saving ..."
+msgstr "保存中"
+
+#: includes/admin/builder/class-builder.php:314
+msgid "Saved!"
+msgstr "保存できました。"
+
+#: includes/admin/builder/class-builder.php:321
+#: includes/admin/builder/class-builder.php:442
+msgid "Loading"
+msgstr "読み込み中"
+
+#: includes/admin/builder/class-builder.php:328
+msgid ""
+"Changing templates on an existing form will DELETE existing form fields. Are "
+"you sure you want apply the new template?"
+msgstr "フォームのテンプレートを変更すると、これまで作成したフォームの項目が削除されます。新しいテンプレートを適用してもよろしいですか？"
+
+#: includes/admin/builder/class-builder.php:329
+msgid "Shortcode of this form"
+msgstr "フォームのソースコード"
+
+#: includes/admin/builder/class-builder.php:333
+msgid "If you exit without saving, your changes will be lost."
+msgstr "保存しない場合、変更は失われます。"
+
+#: includes/admin/builder/class-builder.php:334
+msgid "Are you sure you want to delete this field?"
+msgstr "これを削除してもよろしいですか？"
+
+#: includes/admin/builder/class-builder.php:335
+msgid "Are you sure you want to duplicate this field?"
+msgstr "フィールドを複製してもよろしいですか？"
+
+#: includes/admin/builder/class-builder.php:465
+msgid "Now editing"
+msgstr "編集中"
+
+#: includes/admin/builder/class-builder.php:482
+msgid "Embed"
+msgstr "埋め込む"
+
+#: includes/admin/importers/class-contact-form-7.php:104
+#: includes/admin/importers/class-ninja-forms.php:121
+#: includes/admin/builder/panels/class-fields.php:128
+#: includes/admin/builder/panels/class-settings.php:186
+msgid "Submit"
+msgstr "送信"
+
+#: includes/admin/importers/class-contact-form-7.php:121
+#: includes/admin/importers/class-ninja-forms.php:138
+#: includes/admin/builder/panels/class-settings.php:257
+msgid "Thanks for contacting us! We will be in touch with you shortly."
+msgstr "メッセージが正常に送信されました。"
+
+#: includes/admin/overview/class-overview-table.php:53
+msgid "Created"
+msgstr "作成済み"
+
+#: includes/admin/overview/class-overview-table.php:191
+msgid "Duplicate"
+msgstr "重複"
+
+#: includes/admin/overview/class-overview-table.php:208
+#: includes/admin/overview/class-overview-table.php:227
+#: advance/includes/admin/entries/class-entries-list-table.php:391
+#: advance/includes/admin/entries/class-entries-list-table.php:407
+msgid "Delete"
+msgstr "削除"
+
+#: includes/admin/overview/class-overview-table.php:267
+msgid "Form was successfully deleted."
+msgstr "フォームは削除されました。"
+
+#: includes/admin/overview/class-overview-table.php:269
+msgid "Forms were successfully deleted."
+msgstr "フォームは削除されました。"
+
+#: includes/admin/overview/class-overview-table.php:279
+#: includes/admin/overview/class-overview-table.php:310
+msgid "Security check failed. Please try again."
+msgstr "セキュリティのチェックに失敗しました。再試行してください"
+
+#: includes/admin/overview/class-overview-table.php:298
+msgid "Form was successfully duplicated."
+msgstr "フォームは複製されました。"
+
+#: includes/admin/overview/class-overview.php:121
+msgid "Forms Overview"
+msgstr "フォーム一覧"
+
+#: advance/includes/admin/entries/class-entries-list-table.php:151
+#: advance/includes/admin/entries/class-entries-single.php:967
+msgid "Actions"
+msgstr "アクション"
+
+#: advance/includes/admin/entries/class-entries-list-table.php:373
+msgid "View"
+msgstr "表示"
+
+#: advance/includes/admin/entries/class-entries-list.php:490
+msgid "Select Form"
+msgstr "フォーム選択"
+
+#: advance/includes/admin/entries/class-entries-list.php:525
+msgid "Download Export (CSV)"
+msgstr "ダウンロード出力（CSV）"
+
+#: advance/includes/admin/entries/class-entries-single.php:349
+msgid "Form not found."
+msgstr "該当フォームは存在していません。"
+
+#: advance/includes/admin/entries/class-entries-single.php:433
+msgid "View Archive"
+msgstr "アーカイブ見る"
+
+#: advance/includes/admin/entries/class-entries-single.php:435
+msgid "Back to All Archives"
+msgstr "フォーム一覧に戻る"
+
+#: advance/includes/admin/entries/class-entries-single.php:695
+msgid "Archive Details"
+msgstr "アーカイブ詳細"
+
+#: advance/includes/admin/entries/class-entries-single.php:704
+msgid "Entry ID:"
+msgstr "フォームID:"
+
+#: advance/includes/admin/entries/class-entries-single.php:710
+msgid "Submitted:"
+msgstr "送信済"
+
+#: advance/includes/admin/entries/class-entries-single.php:772
+msgid "Delete Entry"
+msgstr "フォーム削除"
+
+#: advance/includes/admin/entries/class-entries-single.php:957
+msgid "Export (CSV)"
+msgstr "出力(CSV)"
+
+#: includes/admin/builder/panels/class-fields.php:22
+msgid "Fields"
+msgstr "フィールド"
+
+#: includes/admin/builder/panels/class-fields.php:69
+msgid "Add Fields"
+msgstr "フィールド追加"
+
+#: includes/admin/builder/panels/class-fields.php:76
+msgid "Field Options"
+msgstr "フィールドオプション"
+
+#: includes/admin/builder/panels/class-fields.php:104
+msgid ""
+"You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-"
+"panel=\"setup\">setup your form</a> before you can manage the fields."
+msgstr "フィールドを管理するには、フォームセットアップ必要"
+
+#: includes/admin/builder/panels/class-fields.php:149
+msgid "List of Fields"
+msgstr "フィールド"
+
+#: includes/admin/builder/panels/class-fields.php:201
+msgid "You don't have any fields yet."
+msgstr "データが入力されません。"
+
+#: includes/admin/builder/panels/class-fields.php:233
+msgid "Nothing added, Drag and drop some fields "
+msgstr "データは存在していない。ドラッグ&ドロップで項目を追加する"
+
+#: includes/admin/builder/panels/class-settings.php:60
+#: includes/admin/builder/panels/class-settings.php:96
+msgid "Custom content"
+msgstr "カスタマイズ内容"
+
+#: includes/admin/builder/panels/class-settings.php:63
+#: includes/admin/builder/panels/class-settings.php:233
+msgid "Confirmation"
+msgstr "確認"
+
+#: includes/admin/builder/panels/class-settings.php:126
+msgid "Enable archives"
+msgstr "アーカイブ有効"
+
+#: includes/admin/builder/panels/class-settings.php:141
+msgid "Theme of buttons "
+msgstr "ボタンデザイン設定"
+
+#: includes/admin/builder/panels/class-settings.php:167
+msgid "Form Description"
+msgstr "フォーム説明"
+
+#: includes/admin/builder/panels/class-settings.php:174
+msgid "Form CSS Class"
+msgstr "フォームCSSクラス"
+
+#: includes/admin/builder/panels/class-settings.php:184
+msgid "Submit Button Text"
+msgstr "送信"
+
+#: includes/admin/builder/panels/class-settings.php:194
+msgid "Submit Button Processing Text"
+msgstr "送信中"
+
+#: includes/admin/builder/panels/class-settings.php:204
+msgid "Enable anti-spam honeypot"
+msgstr "スパム対策ハニーポット有効"
+
+#: includes/admin/builder/panels/class-settings.php:215
+msgid "Enable Google invisible reCAPTCHA"
+msgstr "Enable Google invisible reCAPTCHA有効"
+
+#: includes/admin/builder/panels/class-settings.php:215
+msgid "Enable Google reCAPTCHA (v2)"
+msgstr "Google reCAPTCHA (v2)機能 ON/OFF"
+
+#: includes/admin/builder/panels/class-settings.php:240
+msgid "Confirmation Type"
+msgstr "確認タイプ"
+
+#: includes/admin/builder/panels/class-settings.php:245
+msgid "Show Page"
+msgstr "ページ表示"
+
+#: includes/admin/builder/panels/class-settings.php:246
+msgid "Go to URL (Redirect)"
+msgstr "URLを開く"
+
+#: includes/admin/builder/panels/class-settings.php:255
+msgid "Confirmation Message"
+msgstr "確認メッセージ"
+
+#: includes/admin/builder/panels/class-settings.php:268
+msgid "Automatically scroll to the confirmation message"
+msgstr "確認メッセージに自動的にスクロール"
+
+#: includes/admin/builder/panels/class-settings.php:281
+msgid "Confirmation Page"
+msgstr "確認ページ"
+
+#: includes/admin/builder/panels/class-settings.php:291
+msgid "Confirmation Redirect URL"
+msgstr "確認ページのURL"
+
+#: includes/admin/builder/panels/class-setup.php:20
+msgid "Setup"
+msgstr "セットアップ"
+
+#: includes/admin/builder/panels/class-setup.php:75
+msgid "Choose a template of new form, up to your purpose!"
+msgstr "フォームテンプレート選択"
+
+#: includes/admin/builder/panels/class-setup.php:90
+msgid "Selected"
+msgstr "選択"
+
+#: includes/admin/builder/panels/class-setup.php:103
+#, php-format
+msgctxt "Template name"
+msgid "Create a %s"
+msgstr "%s を作成します"
+
+#. Description of the plugin
+msgid "This is original form of Infact corporation"
+msgstr "こちらのフォームはインファクトオリジナルフォームです。"
