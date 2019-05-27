@@ -229,105 +229,14 @@
                             properties = {
                                 disableMobile: true,
                                 minDate: "today",
-                                maxDate: new Date().fp_incr(day_from_now),
-                                locale: {
-                                    firstDayOfWeek: 1,
-                                    weekdays: {
-                                        shorthand: ["日", "月", "火", "水", "木", "金", "土"],
-                                        longhand: [
-                                            "日曜日",
-                                            "月曜日",
-                                            "火曜日",
-                                            "水曜日",
-                                            "木曜日",
-                                            "金曜日",
-                                            "土曜日"
-                                        ]
-                                    },
-
-                                    months: {
-                                        shorthand: [
-                                            "1月",
-                                            "2月",
-                                            "3月",
-                                            "4月",
-                                            "5月",
-                                            "6月",
-                                            "7月",
-                                            "8月",
-                                            "9月",
-                                            "10月",
-                                            "11月",
-                                            "12月"
-                                        ],
-                                        longhand: [
-                                            "1月",
-                                            "2月",
-                                            "3月",
-                                            "4月",
-                                            "5月",
-                                            "6月",
-                                            "7月",
-                                            "8月",
-                                            "9月",
-                                            "10月",
-                                            "11月",
-                                            "12月"
-                                        ]
-                                    }
-                                }
+                                maxDate: new Date().fp_incr(day_from_now)
                             }
 
                         }
                         else {
                             properties = {
                                 disableMobile: true,
-                                locale: {
-                                    firstDayOfWeek: 1,
-                                    weekdays: {
-                                        shorthand: ["日", "月", "火", "水", "木", "金", "土"],
-                                        longhand: [
-                                            "日曜日",
-                                            "月曜日",
-                                            "火曜日",
-                                            "水曜日",
-                                            "木曜日",
-                                            "金曜日",
-                                            "土曜日"
-                                        ]
-                                    },
-
-                                    months: {
-                                        shorthand: [
-                                            "1月",
-                                            "2月",
-                                            "3月",
-                                            "4月",
-                                            "5月",
-                                            "6月",
-                                            "7月",
-                                            "8月",
-                                            "9月",
-                                            "10月",
-                                            "11月",
-                                            "12月"
-                                        ],
-                                        longhand: [
-                                            "1月",
-                                            "2月",
-                                            "3月",
-                                            "4月",
-                                            "5月",
-                                            "6月",
-                                            "7月",
-                                            "8月",
-                                            "9月",
-                                            "10月",
-                                            "11月",
-                                            "12月"
-                                        ]
-                                    }
-                                }
+                                minDate: "today"
                             }
                         }
 
@@ -351,9 +260,7 @@
                         form = element.closest('.wpforms-form'),
                         formID = form.data('formid'),
                         fieldID = element.closest('.wpforms-field').data('field-id'),
-                        properties,
-                        minimum_time = element.attr('minimum-time'),
-                        maximum_time = element.attr('maximum-time');
+                        properties;
 
                     if (
                         typeof window['wpforms_' + formID + '_' + fieldID] !== 'undefined' &&
@@ -370,11 +277,10 @@
                     } else {
                         properties = {
                             scrollDefault: 'now',
-                            forceRoundTime: true,
-                            minTime: minimum_time,
-                            maxTime: maximum_time
+                            forceRoundTime: true
                         };
                     }
+
                     element.timepicker(properties);
                 });
             }

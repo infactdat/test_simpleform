@@ -1287,6 +1287,7 @@
 			choice.attr('data-key', id);
 			choice.find('input.label').val('').attr('name', 'fields['+fieldID+'][choices]['+id+'][label]');
 			choice.find('input.value').val('').attr('name', 'fields['+fieldID+'][choices]['+id+'][value]');
+            choice.find('input.limit').val('').attr('name', 'fields['+fieldID+'][choices]['+id+'][limit]');
 			choice.find('input.default').attr('name', 'fields['+fieldID+'][choices]['+id+'][default]').prop('checked', false);
 
 			if ( checked == true ) {

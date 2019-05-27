@@ -5,7 +5,7 @@
  * Description: This is original form of Infact corporation
  * Author:      Infact
  * Author URI:  https://www.infact1.co.jp/
- * Version:     1.1
+ * Version:     1.0.0
  * Text Domain: wpforms
  */
 
@@ -280,6 +280,7 @@ if (class_exists('SimpleForm')) {
             require_once WPFORMS_PLUGIN_DIR . 'includes/class-preview.php';
             require_once WPFORMS_PLUGIN_DIR . 'includes/class-conditional-logic-core.php';
             require_once WPFORMS_PLUGIN_DIR . 'includes/emails/class-emails.php';
+            require_once WPFORMS_PLUGIN_DIR . 'includes/integrations.php';
             require_once WPFORMS_PLUGIN_DIR . 'includes/smtp/wp-smtp.php';
 
             // Admin/Dashboard only includes.

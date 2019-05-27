@@ -107,7 +107,6 @@ class WPForms_Template_Subscribe extends WPForms_Template {
 				'honeypot'                    => '1',
 				'confirmation_message_scroll' => '1',
 				'submit_text_processing'      => __( 'Sending...', 'wpforms' ),
-                'recaptcha'=>'1'
 			),
 			'meta'     => array(
 				'template' => $this->slug,

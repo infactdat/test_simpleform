@@ -44,7 +44,9 @@ class WPForms_Frontend
     {
 
         $this->forms = array();
+
         // Actions.
+        add_action('wp_head', array($this, 'addCustomCss'));
         add_action('wpforms_frontend_output_success', array($this, 'confirmation'), 10, 2);
         add_action('wpforms_frontend_output', array($this, 'head'), 5, 5);
         add_action('wpforms_frontend_output', array($this, 'fields'), 10, 5);
@@ -62,40 +64,41 @@ class WPForms_Frontend
         add_action('wpforms_frontend_output', array($this, 'recaptcha'), 20, 5);
         add_action('wpforms_frontend_output', array($this, 'foot'), 25, 5);
         add_action('wp_enqueue_scripts', array($this, 'assets_header'));
-        add_action('wp_enqueue_scripts', array($this, 'recaptcha_noconflict'), 9999);
-        add_action('wp_footer', array($this, 'assets_footer'), 15);
-        add_action('wp_footer', array($this, 'recaptcha_noconflict'), 19);
+        add_action( 'wp_enqueue_scripts', array( $this, 'recaptcha_noconflict' ), 9999 );
+        add_action( 'wp_footer', array( $this, 'assets_footer' ), 15 );
+        add_action( 'wp_footer', array( $this, 'recaptcha_noconflict' ), 19 );
         add_action('wp_footer', array($this, 'footer_end'), 99);
+
         // Register shortcode.
         add_shortcode('wpforms', array($this, 'shortcode'));
     }
 
-    public function recaptcha_noconflict()
-    {
+    public function recaptcha_noconflict() {
 
-        $noconflict = wpforms_setting('recaptcha-noconflict');
+        $noconflict = wpforms_setting( 'recaptcha-noconflict' );
 
-        if (empty($noconflict)) {
+        if ( empty( $noconflict ) ) {
             return;
         }
 
-        if (!apply_filters('wpforms_frontend_recaptcha_noconflict', true)) {
+        if ( ! apply_filters( 'wpforms_frontend_recaptcha_noconflict', true ) ) {
             return;
         }
 
         global $wp_scripts;
 
-        $urls = array('google.com/recaptcha', 'gstatic.com/recaptcha');
+        $urls = array( 'google.com/recaptcha', 'gstatic.com/recaptcha' );
 
-        foreach ($wp_scripts->queue as $handle) {
+        foreach ( $wp_scripts->queue as $handle ) {
 
-            if (false !== strpos($wp_scripts->registered[$handle]->handle, 'wpforms')) {
+            if ( false !== strpos( $wp_scripts->registered[ $handle ]->handle, 'wpforms' ) ) {
                 return;
             }
-            foreach ($urls as $url) {
-                if (false !== strpos($wp_scripts->registered[$handle]->src, $url)) {
-                    wp_dequeue_script($handle);
-                    wp_deregister_script($handle);
+
+            foreach ( $urls as $url ) {
+                if ( false !== strpos( $wp_scripts->registered[ $handle ]->src, $url ) ) {
+                    wp_dequeue_script( $handle );
+                    wp_deregister_script( $handle );
                     break;
                 }
             }
@@ -237,6 +240,7 @@ class WPForms_Frontend
      */
     function confirmation($form_data)
     {
+
         $settings = $form_data['settings'];
 
         // Only display if a confirmation message has been configured.
@@ -415,6 +419,34 @@ class WPForms_Frontend
         echo '</td>';
     }
 
+
+    /**
+     * Add custom css if setting is exist
+     *
+     * @since 1.0.0
+     *
+     */
+    public function addCustomCss()
+    {
+        ?>
+        <style>
+            .wpforms-form .wpforms-page-button, .wpforms-form button[type=submit] {
+                background-color: <?php echo wpforms_setting( 'primary-color' ); ?> !important;
+                color: <?php  echo wpforms_setting( 'primary-text-color' ); ?> !important ;
+            }
+
+            .wpforms-form .wpforms-page-next:after, .wpforms-form button[type=submit]:after {
+                color: <?php  echo wpforms_setting( 'primary-text-color' ); ?> !important;;
+            }
+
+            .wpforms-form .table_wrap_fields td:first-of-type {
+                background-color: <?php echo wpforms_setting( 'left-col-background' ); ?> !important;
+            }
+
+
+        </style>
+        <?php
+    }
 
     /**
      * Return base attributes for a specific field. This is deprecated and
@@ -853,7 +885,6 @@ class WPForms_Frontend
     public function foot($form_data, $deprecated, $title, $description, $errors)
     {
 
-
         $form_id = absint($form_data['id']);
         $settings = $form_data['settings'];
         $submit = apply_filters('wpforms_field_submit', $settings['submit_text'], $form_data);
@@ -866,9 +897,9 @@ class WPForms_Frontend
             $process = 'data-alt-text="' . esc_attr($settings['submit_text_processing']) . '"';
         }
 
-        // Difine new template of button
-        if (!empty($settings['theme_of_button'])) {
-            $classes = wpforms_sanitize_classes($settings['theme_of_button']);
+        // Check user defined submit button classes.
+        if (!empty($settings['submit_class'])) {
+            $classes = wpforms_sanitize_classes($settings['submit_class']);
         }
 
         // Output footer errors if they exist.
@@ -895,7 +926,7 @@ class WPForms_Frontend
 
 
         printf(
-            '<button type="submit" name="wpforms[submit]" class="wpforms-submit wpforms-handle-button  %s" id="wpforms-submit-%d" value="wpforms-submit" %s>%s</button>',
+            '<button type="submit" name="wpforms[submit]" class="wpforms-submit %s" id="wpforms-submit-%d" value="wpforms-submit" %s>%s</button>',
             $classes,
             $form_id,
             $process,
@@ -905,36 +936,6 @@ class WPForms_Frontend
         do_action('wpforms_display_submit_after', $form_data);
 
         echo '</div>';
-        $primary_color = (!empty($form_data['settings']['form-primary-color'])) ? $form_data['settings']['form-primary-color'] : wpforms_setting( 'primary-color' );
-        $primary_text_color = (!empty($form_data['settings']['form-primary-text-color'])) ? $form_data['settings']['form-primary-text-color'] : wpforms_setting( 'primary-text-color' );
-        $left_col_background = (!empty($form_data['settings']['form-left-col-background'])) ? $form_data['settings']['form-left-col-background'] : wpforms_setting( 'left-col-background' );
-        $background_for_not_required= (!empty($form_data['settings']['form-background-for-not-required'])) ? $form_data['settings']['form-background-for-not-required'] : wpforms_setting( 'background-for-not-required' );
-        $background_for_required= (!empty($form_data['settings']['form-background-for-required'])) ? $form_data['settings']['form-background-for-required'] : wpforms_setting( 'background-for-required' );
-        ?>
-        <style>
-            .wpforms-form .wpforms-page-button, .wpforms-form button[type=submit] {
-                background-color: <?php echo $primary_color; ?> !important;
-                color: <?php  echo $primary_text_color; ?> !important ;
-            }
-
-            .wpforms-form .wpforms-page-next:after, .wpforms-form button[type=submit]:after {
-                color: <?php  echo $primary_text_color; ?> !important;;
-            }
-
-            .wpforms-form .table_wrap_fields td:first-of-type {
-                background-color: <?php echo $left_col_background; ?> !important;
-            }
-
-            .wpforms-form input[type=date], .wpforms-form input[type=datetime], .wpforms-form input[type=datetime-local], .wpforms-form input[type=email], .wpforms-form input[type=month], .wpforms-form input[type=number], .wpforms-form input[type=password], .wpforms-form input[type=range], .wpforms-form input[type=search], .wpforms-form input[type=tel], .wpforms-form input[type=text]:not(.wpforms-timepicker):not(.wpforms-field-date-time-date), .wpforms-form input[type=time], .wpforms-form input[type=url], .wpforms-form input[type=week], .wpforms-form textarea {
-                background-color: <?php echo $background_for_not_required; ?>;
-            }
-
-            .wpforms-form input[type=date].wpforms-field-required, .wpforms-form input[type=datetime].wpforms-field-required, .wpforms-form input[type=datetime-local].wpforms-field-required, .wpforms-form input[type=email].wpforms-field-required, .wpforms-form input[type=month].wpforms-field-required, .wpforms-form input[type=number].wpforms-field-required, .wpforms-form input[type=password].wpforms-field-required, .wpforms-form input[type=range].wpforms-field-required, .wpforms-form input[type=search].wpforms-field-required, .wpforms-form input[type=tel].wpforms-field-required, .wpforms-form input[type=text].wpforms-field-required, .wpforms-form input[type=time].wpforms-field-required, .wpforms-form input[type=url].wpforms-field-required, .wpforms-form input[type=week].wpforms-field-required, .wpforms-form textarea.wpforms-field-required {
-                background-color: <?php echo $background_for_required; ?>;
-            }
-
-        </style>
-        <?php
     }
 
     /**
@@ -1004,7 +1005,7 @@ class WPForms_Frontend
         }
 
         // Load CSS per global setting.
-        if (wpforms_setting('disable-css', '1') === '1') {
+        if (wpforms_setting('disable-css', '1') == '1') {
             wp_enqueue_style(
                 'wpforms-full',
                 WPFORMS_PLUGIN_URL . 'assets/css/wpforms-full.css',

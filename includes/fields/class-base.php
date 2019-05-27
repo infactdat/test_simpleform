@@ -486,24 +486,6 @@ abstract class WPForms_Field {
 
 				break;
 
-			case 'toggle_active_time':
-				$default = !empty($args['default']) ? $args['default'] : '0';
-				$value = isset($field['toggle_active']) ? $field['toggle_active'] : $default;
-				$tooltip = __('Check to active this option', 'wpforms');
-				$output = $this->field_element('checkbox', $field, array(
-					'slug' => 'toggle_active',
-					'value' => $value,
-					'desc' => __('Active custom time', 'wpforms'),
-					'tooltip'=>$tooltip
-				), false);
-
-
-				$output = $this->field_element('row', $field, array(
-					'slug' => 'toggle_active',
-					'content' => $output
-				), false);
-				break;
-
 
 			// Field Meta (field type and ID). --------------------------------//
 
@@ -540,7 +522,10 @@ abstract class WPForms_Field {
 				$dynamic = ! empty( $field['dynamic_choices'] ) ? esc_html( $field['dynamic_choices'] ) : '';
 				$values  = ! empty( $field['choices'] ) ? $field['choices'] : $this->defaults;
 				$class   = ! empty( $field['show_values'] ) && $field['show_values'] == '1' ? 'show-values' : '';
+
+
 				$class   .= ! empty( $dynamic ) ? ' wpforms-hidden' : '';
+
 
 				// Field option label and type.
 				$option_label = $this->field_element(
@@ -565,7 +550,11 @@ abstract class WPForms_Field {
 					$option_choices .= '<a class="add" href="#"><i class="fa fa-plus-circle"></i></a>';
 					$option_choices .= '<a class="remove" href="#"><i class="fa fa-minus-circle"></i></a>';
 					$option_choices .= sprintf( '<input type="text" name="fields[%s][choices][%s][value]" value="%s" class="value">', $field['id'], $key, esc_attr( $value['value'] ) );
-					$option_choices .= '</li>';
+					if($option_type === 'radio') {
+						$option_choices .= sprintf( '<br><label class="limit-label">'.__( '参加者数制限', 'wpforms' ).'</label><input type="number" name="fields[%s][choices][%s][limit]" value="%s" min="1" max="9999" class="limit" />', $field['id'], $key, esc_attr( $value['limit'] ) );
+					}
+                    
+                    $option_choices .= '</li>';
 				}
 				$option_choices .= '</ul>';
 
@@ -607,71 +596,6 @@ abstract class WPForms_Field {
 					$field,
 					array(
 						'slug'    => 'choices',
-						'content' => $option_label . $option_choices . $option_status,
-					)
-				);
-				break;
-
-			case 'time_choices':
-				$dynamic = !empty($field['dynamic_choices']) ? esc_html($field['dynamic_choices']) : '';
-				$values = !empty($field['choices']) ? $field['choices'] : $this->defaults;
-				$class = !empty($field['show_values']) && $field['show_values'] == '1' ? 'show-values' : '';
-				$class .= !empty($dynamic) ? ' wpforms-hidden' : '';
-
-				$option_type = 'checkbox' === $this->type ? 'checkbox' : 'radio';
-
-				// Field option choices inputs
-				$option_choices = sprintf('<ul data-next-id="%s" class="choices-list %s" data-field-id="%d" data-field-type="%s">', max(array_keys($values)) + 1, $class, $field['id'], $this->type);
-				foreach ($values as $key => $value) {
-					$default = !empty($value['default']) ? $value['default'] : '';
-					$option_choices .= sprintf('<li data-key="%d">', $key);
-					$option_choices .= sprintf('<input type="%s" name="fields[%s][choices][%s][default]" class="default" value="1" %s>', $option_type, $field['id'], $key, checked('1', $default, false));
-					$option_choices .= sprintf('<input type="text" name="fields[%s][choices][%s][label]" value="%s" class="label">', $field['id'], $key, esc_attr($value['label']));
-					$option_choices .= '<a class="add" href="#"><i class="fa fa-plus-circle"></i></a>';
-					$option_choices .= '<a class="remove" href="#"><i class="fa fa-minus-circle"></i></a>';
-					$option_choices .= sprintf('<input type="text" name="fields[%s][choices][%s][value]" value="%s" class="value">', $field['id'], $key, esc_attr($value['value']));
-					$option_choices .= '</li>';
-				}
-				$option_choices .= '</ul>';
-
-				// Field option dynamic status.
-				$source_name = '';
-				$type_name = '';
-				$status_visibility = !empty($dynamic) && !empty($field['dynamic_' . $dynamic]) ? '' : 'wpforms-hidden';
-
-				if ('post_type' === $dynamic && !empty($field['dynamic_' . $dynamic])) {
-
-					$type_name = __('post type', 'wpforms');
-					$source = $field['dynamic_' . $dynamic];
-					$pt = get_post_type_object($source);
-					$source_name = $pt->labels->name;
-
-				} elseif ('taxonomy' === $dynamic && !empty($field['dynamic_' . $dynamic])) {
-
-					$type_name = __('taxonomy', 'wpforms');
-					$source = $field['dynamic_' . $dynamic];
-					$tax = get_taxonomy($source);
-					$source_name = $tax->labels->name;
-				}
-
-				$option_status = sprintf('<div class="wpforms-alert-warning wpforms-alert %s">', $status_visibility);
-				/* translators: %1$s - source name; %2$s - type name. */
-				$option_status .= sprintf(
-					__(
-						'Choices are dynamically populated from the %1$s %2$s',
-						'wpforms'
-					),
-					'<span class="dynamic-name">' . $source_name . '</span>',
-					'<span class="dynamic-type">' . $type_name . '</span>'
-				);
-				$option_status .= '</div>';
-
-				// Field option row (markup) including label and input.
-				$output = $this->field_element(
-					'row',
-					$field,
-					array(
-						'slug' => 'choices',
 						'content' => $option_label . $option_choices . $option_status,
 					)
 				);

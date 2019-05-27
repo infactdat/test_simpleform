@@ -86,6 +86,8 @@ class WPForms_Builder_Panel_Settings extends WPForms_Builder_Panel
         }
 
 
+
+
         // --------------------------------------------------------------------//
         // Notifications
         // --------------------------------------------------------------------//
@@ -129,72 +131,6 @@ class WPForms_Builder_Panel_Settings extends WPForms_Builder_Panel
                     '0' => __('Off', 'wpforms'),
                 ),
                 'tooltip' => __('This options to allow all data of form can be stored in Archives ', 'wpforms'),
-            )
-        );
-        wpforms_panel_field(
-            'select',
-            'settings',
-            'theme_of_button',
-            $this->form_data,
-            __('Theme of buttons ', 'wpforms'),
-            array(
-                'default' => '1',
-                'options' => array(
-                    'button_type_2' => __('四角', 'wpforms'),
-                    'button_type_1' => __('角丸', 'wpforms'),
-                    'button_type_3' => __('円形', 'wpforms'),
-                ),
-
-            )
-        );
-        wpforms_panel_field(
-            'color',
-            'settings',
-            'form-primary-color',
-            $this->form_data,
-            __('Color for button', 'wpforms'),
-            array(
-                'default' => null,
-            )
-        );
-        wpforms_panel_field(
-            'color',
-            'settings',
-            'form-primary-text-color',
-            $this->form_data,
-            __('Color text for button', 'wpforms'),
-            array(
-                'default' => null,
-            )
-        );
-        wpforms_panel_field(
-            'color',
-            'settings',
-            'form-left-col-background',
-            $this->form_data,
-            __('Background color for left col', 'wpforms'),
-            array(
-                'default' => null,
-            )
-        );
-        wpforms_panel_field(
-            'color',
-            'settings',
-            'form-background-for-not-required',
-            $this->form_data,
-            __('Background for not required field', 'wpforms'),
-            array(
-                'default' => null,
-            )
-        );
-        wpforms_panel_field(
-            'color',
-            'settings',
-            'form-background-for-required',
-            $this->form_data,
-            __('Background for required field', 'wpforms'),
-            array(
-                'default' => null,
             )
         );
         wpforms_panel_field(
@@ -242,6 +178,16 @@ class WPForms_Builder_Panel_Settings extends WPForms_Builder_Panel
             __('Submit Button Processing Text', 'wpforms'),
             array(
                 'tooltip' => __('Enter the submit button text you would like the button display while the form submit is processing.', 'wpforms'),
+            )
+        );
+        wpforms_panel_field(
+            'text',
+            'settings',
+            'submit_class',
+            $this->form_data,
+            __('Submit Button CSS Class', 'wpforms'),
+            array(
+                'tooltip' => __('Enter CSS class names for the form submit button. Multiple names should be separated with spaces.', 'wpforms'),
             )
         );
         wpforms_panel_field(

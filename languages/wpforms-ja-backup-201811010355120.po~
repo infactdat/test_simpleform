@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPForms 1.4.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpforms\n"
-"POT-Creation-Date: 2018-11-01 03:54+0000\n"
-"PO-Revision-Date: 2018-11-01 03:55+0000\n"
+"POT-Creation-Date: 2018-10-23 02:08+0000\n"
+"PO-Revision-Date: 2018-10-23 02:12+0000\n"
 "Last-Translator: admin <tuandn.developer@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -131,23 +131,23 @@ msgstr ""
 msgid "WPForms"
 msgstr ""
 
-#: includes/class-frontend.php:1219
+#: includes/class-frontend.php:1191
 msgid "Please enter time in 12-hour AM/PM format (eg 8:45 AM)."
 msgstr ""
 
-#: includes/class-frontend.php:1220
+#: includes/class-frontend.php:1192
 msgid "Please enter time in 24-hour format (eg 22:45)."
 msgstr ""
 
-#: includes/class-frontend.php:1221
+#: includes/class-frontend.php:1193
 msgid "Payment is required."
 msgstr ""
 
-#: includes/class-frontend.php:1222
+#: includes/class-frontend.php:1194
 msgid "Please enter a valid credit card number."
 msgstr ""
 
-#: includes/class-frontend.php:1319
+#: includes/class-frontend.php:1258
 #, php-format
 msgid "<a href=\"%s\">Go to the full page</a> to view and submit the form."
 msgstr ""
@@ -1809,6 +1809,12 @@ msgstr ""
 msgid "Add Form"
 msgstr ""
 
+#. Name of the plugin
+#: includes/admin/class-menu.php:37 includes/admin/class-menu.php:38
+#: includes/admin/class-menu.php:49
+msgid "Simple form"
+msgstr "シンプルフォーム"
+
 #: includes/admin/class-menu.php:59
 msgid "Form Builder"
 msgstr ""
@@ -1837,15 +1843,11 @@ msgstr ""
 msgid "Background color for left col"
 msgstr ""
 
-#: includes/admin/class-settings.php:282
-msgid "No-Conflict Mode"
-msgstr "無競合"
-
-#: includes/admin/class-settings.php:331 includes/admin/class-settings.php:338
+#: includes/admin/class-settings.php:325 includes/admin/class-settings.php:332
 msgid "Integrations"
 msgstr ""
 
-#: includes/admin/class-settings.php:331 includes/admin/class-settings.php:338
+#: includes/admin/class-settings.php:325 includes/admin/class-settings.php:332
 msgid ""
 "Manage integrations with popular providers such as Constant Contact, "
 "MailChimp, Zapier, and more."
@@ -2461,10 +2463,6 @@ msgstr ""
 
 #: includes/templates/class-review.php:136
 msgid "本文"
-msgstr ""
-
-#: includes/templates/class-subscribe.php:21
-msgid "First template of simple form, include some basic fields."
 msgstr ""
 
 #: includes/templates/class-subscribe.php:36
@@ -3235,7 +3233,7 @@ msgstr "来なくて良い！"
 msgid "Email notifications"
 msgstr "メールでの通知"
 
-#: includes/class-frontend.php:1212 includes/fields/class-base.php:1131
+#: includes/class-frontend.php:1184 includes/fields/class-base.php:1131
 #: includes/fields/class-name.php:614
 #: advance/includes/fields/class-address.php:713
 #: advance/includes/fields/class-date-time.php:570
@@ -3243,30 +3241,30 @@ msgstr "メールでの通知"
 msgid "This field is required."
 msgstr "この項目は入力必須です。"
 
-#: includes/class-frontend.php:1213
+#: includes/class-frontend.php:1185
 msgid "Please enter a valid URL."
 msgstr "URL形式を正しく入力してください。"
 
-#: includes/class-frontend.php:1214
+#: includes/class-frontend.php:1186
 msgid "Please enter a valid email address."
 msgstr "メールアドレスの形式が正しくないようです。"
 
-#: includes/class-frontend.php:1215
+#: includes/class-frontend.php:1187
 msgid "Please enter a valid number."
 msgstr "有効な数値を入力してください。"
 
-#: includes/class-frontend.php:1216
+#: includes/class-frontend.php:1188
 msgid "Field values do not match."
 msgstr "確認メールは正しく入力されません。"
 
-#: includes/class-frontend.php:1217
+#: includes/class-frontend.php:1189
 #: advance/includes/fields/class-file-upload.php:457
 #: advance/includes/fields/class-file-upload.php:473
 #: advance/includes/fields/class-file-upload.php:491
 msgid "File type is not allowed."
 msgstr "ファイル形式は正しくありせん。"
 
-#: includes/class-frontend.php:1218
+#: includes/class-frontend.php:1190
 msgid "File exceeds max size allowed."
 msgstr "アップロードされたファイルが大きすぎる"
 
@@ -3377,12 +3375,6 @@ msgstr "注意！"
 msgid "OK"
 msgstr "OK"
 
-#. Name of the plugin
-#: includes/admin/class-menu.php:37 includes/admin/class-menu.php:38
-#: includes/admin/class-menu.php:49
-msgid "Simple form"
-msgstr "シンプルフォーム"
-
 #: includes/admin/class-menu.php:50
 msgid "All Forms"
 msgstr "全てのフォーム"
@@ -3442,34 +3434,34 @@ msgstr "サイト鍵"
 msgid "Secret Key"
 msgstr "秘密鍵"
 
-#: includes/admin/class-settings.php:291
+#: includes/admin/class-settings.php:285
 msgid "Validation Messages"
 msgstr "バリデーションメッセージ"
 
-#: includes/admin/class-settings.php:291
+#: includes/admin/class-settings.php:285
 msgid ""
 "These messages are displayed to the user as they fill out a form in real-"
 "time."
 msgstr "これらのメッセージは、ユーザーがフォームにリアルタイムで記入する際に表示されます。"
 
-#: includes/admin/class-settings.php:298 includes/fields/class-base.php:459
+#: includes/admin/class-settings.php:292 includes/fields/class-base.php:459
 msgid "Required"
 msgstr "必須"
 
-#: includes/admin/class-settings.php:304
+#: includes/admin/class-settings.php:298
 msgid "Website URL"
 msgstr "サイトURL"
 
-#: includes/admin/class-settings.php:310 includes/fields/class-email.php:20
+#: includes/admin/class-settings.php:304 includes/fields/class-email.php:20
 #: includes/fields/class-email.php:70 includes/fields/class-email.php:316
 msgid "Email"
 msgstr " メールアドレス"
 
-#: includes/admin/class-settings.php:316
+#: includes/admin/class-settings.php:310
 msgid "Number"
 msgstr "数値"
 
-#: includes/admin/class-settings.php:322
+#: includes/admin/class-settings.php:316
 msgid "Confirm Value"
 msgstr "確認メール"
 
@@ -3777,6 +3769,10 @@ msgstr "戻る"
 #: includes/templates/class-subscribe.php:19
 msgid "Basic template"
 msgstr "基本テンプレート"
+
+#: includes/templates/class-subscribe.php:21
+msgid "First template of infact form, include some basic fields."
+msgstr "インファクトの基本フォームテンプレートです。基本の項目が設定されています。"
 
 #: advance/includes/fields/class-address.php:30
 msgid "Address"
